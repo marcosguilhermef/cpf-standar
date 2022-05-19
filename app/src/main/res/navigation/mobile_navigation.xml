@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.origin.cpf_standard.ui.home.home"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_navigation_consultar"
+            app:destination="@id/navigation_consultar" />
+        <action
+            android:id="@+id/action_home_to_navigation_consultar_historico"
+            app:destination="@id/navigation_consultar_historico" />
+        <action
+            android:id="@+id/action_home_to_navigation_consultar_serasa_formulario"
+            app:destination="@id/navigation_consultar_serasa_formulario" />
+        <action
+            android:id="@+id/action_home_to_navigation_consultar_cnpj"
+            app:destination="@id/navigation_consultar_cnpj" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_consultar"
+        android:name="com.origin.cpf_standard.ui.consultar_cpf.ConsultarCpf"
+        android:label="@string/title_consultar"
+        tools:layout="@layout/fragment_consultar_cpf" />
+
+    <fragment
+        android:id="@+id/navigation_consultar_serasa_formulario"
+        android:name="com.origin.cpf_standard.ui.consultarScoreSerasa.FormularioConsultarHistoricoSerasa"
+        android:label="@string/title_consultar"
+        tools:layout="@layout/fragment_formulario_consultar_score_serasa" />
+
+    <fragment
+        android:id="@+id/navigation_consultar_cnpj"
+        android:name="com.origin.cpf_standard.ui.consultarCNPJ.consultarCNPJ"
+        android:label="@string/title_consultar"
+        tools:layout="@layout/fragment_consultar_c_n_p_j" />
+    <fragment
+        android:id="@+id/navigation_consultar_historico"
+        android:name="com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaCpf"
+        android:label="@string/title_consultar"
+        tools:layout="@layout/fragment_historico_consulta_cpf" />
+
+
+</navigation>

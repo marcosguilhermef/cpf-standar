@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_historico_consulta_cpf.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_historico_consulta_cpf.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/consultar_score_serasa.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/consultar_score_serasa.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_consultar_cpf.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_consultar_cpf.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/consultar_historico.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/consultar_historico.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/consultar_cpf.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/consultar_cpf.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_formulario_consultar_score_serasa.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_formulario_consultar_score_serasa.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/consultar_cnpj.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/consultar_cnpj.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_consultar_c_n_p_j.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_consultar_c_n_p_j.xml"
+    }
+]

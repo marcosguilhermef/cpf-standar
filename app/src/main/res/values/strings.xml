@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">cpf-standard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_consultar">Consultar Cpf</string>
+    <string name="title_home">Consulta CPF e CNPJ</string>
+    <string name="home_text">Consulta CPF e CNPJ</string>
+    <string name="title_consultar_score_serasa">Consultar Score Serasa</string>
+    <string name="title_consultar_cnpj">Consultar CNPJ</string>
+    <string name="texto_1">Consultar CPF e CNPJ</string>
+    <string name="texto_2">Faça consulta da situação cadastral de empresas e pessoas físicas e aprensa sobre a importância desses dados e como eles podem lhe afetar.</string>
+    <string name="texto_3">Verificar a situação cadastral de algum CPF </string>
+    <string name="texto_4">Consulte o status e situação cadastral de alguma empresa ou entidade</string>
+    <string name="texto_5">Consulte o suas dívidas no Serasa de forma fácil e prática.</string>
+    <string name="title_historico_pesquisa">Histórico de pesquisa</string>
+    <string name="texto_6">Veja o histórico de consultas que você fez anteriormente</string>
+    <string name="texto_7">Consulte as suas dívidas no Serasa</string>
+    <string name="texto_8">O score é uma pontuação que vai de 0 a 1000. Quanto maio o seu score, maior a possíbilidade de conseguie aprovação de crédtido.</string>
+    <string name="texto_9">Para acessar seu score, é necessário ter cadastro no site do serasa. Você já tem cadastro?</string>
+    <string name="cpf">CPF</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="captch">CAPTCHA</string>
+    <string name="nascimento">Nascimento</string>
+</resources>
