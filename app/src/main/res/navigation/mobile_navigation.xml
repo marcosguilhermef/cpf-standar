@@ -28,7 +28,11 @@
         android:id="@+id/navigation_consultar"
         android:name="com.origin.cpf_standard.ui.consultar_cpf.ConsultarCpf"
         android:label="@string/title_consultar"
-        tools:layout="@layout/fragment_consultar_cpf" />
+        tools:layout="@layout/fragment_consultar_cpf" >
+        <action
+            android:id="@+id/action_navigation_consultar_to_navigation_informacoesCPF"
+            app:destination="@id/navigation_informacoesCPF" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_consultar_serasa_formulario"
@@ -46,6 +50,44 @@
         android:name="com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaCpf"
         android:label="@string/title_consultar"
         tools:layout="@layout/fragment_historico_consulta_cpf" />
+
+    <fragment
+        android:id="@+id/navigation_informacoesCPF"
+        android:name="com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF"
+        android:label="@string/title_informacoes"
+        tools:layout="@layout/fragment_informacoes_c_p_f" >
+        <argument
+            android:name="cpf"
+            app:argType="string"
+            app:nullable="true"
+            />
+        <argument
+            android:name="nome"
+            app:argType="string"
+            app:nullable="true"
+            />
+        <argument
+            android:name="status"
+            app:argType="string"
+            app:nullable="true"
+            />
+        <argument
+            android:name="nascimento"
+            app:argType="string"
+            app:nullable="true"
+            />
+        <argument
+            android:name="inscricao"
+            app:argType="string"
+            app:nullable="true"
+            />
+        <argument
+            android:name="verificador"
+            app:argType="string"
+            app:nullable="true"
+            />
+
+    </fragment>
 
 
 </navigation>

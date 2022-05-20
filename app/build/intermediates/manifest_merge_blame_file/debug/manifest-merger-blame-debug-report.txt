@@ -13,103 +13,185 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:4:5-67
 11-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:4:22-64
-12
-13    <application
-13-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:5:5-21:19
-14        android:allowBackup="true"
-14-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:6:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] /home/micos/.gradle/caches/transforms-3/21249a56641fb0309777a5ae16ce99ff/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:7:9-43
-18        android:label="@string/app_name"
-18-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:8:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:9:9-54
-20        android:supportsRtl="true"
-20-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:10:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.Cpfstandard" >
-22-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:11:9-49
-23        <activity
-23-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:12:9-20:20
-24            android:name="com.origin.cpf_standard.MainActivity"
-24-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:13:13-41
-25            android:exported="true" >
-25-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:14:13-36
-26            <intent-filter>
-26-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:16:13-19:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:17:17-69
-27-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:17:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:18:17-77
-29-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:18:27-74
-30            </intent-filter>
-31        </activity>
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /home/micos/.gradle/caches/transforms-3/919b1e91a07ddbf34272a620f8cba519/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Cpfstandard" >
+26-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:11:9-49
+27        <activity
+27-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:12:9-20:20
+28            android:name="com.origin.cpf_standard.MainActivity"
+28-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:13:13-41
+29            android:exported="true" >
+29-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:16:13-19:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:17:17-69
+31-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:17:25-66
 32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-35            android:authorities="com.origin.cpf_standard.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/beb1e8c1d1724370afa1be71eb324942/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/micos/.gradle/caches/transforms-3/4d87c3e3b70abeed5e61faf08f3b9b5b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/micos/.gradle/caches/transforms-3/4d87c3e3b70abeed5e61faf08f3b9b5b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/micos/.gradle/caches/transforms-3/4d87c3e3b70abeed5e61faf08f3b9b5b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-43            <meta-data
-43-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
-44                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-44-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
-45                android:value="androidx.startup" />
-45-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
-46        </provider>
-47
-48        <uses-library
-48-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/09a5e9d7f702ea229ef09128ceac4045/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-49            android:name="androidx.window.extensions"
-49-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/09a5e9d7f702ea229ef09128ceac4045/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-50            android:required="false" />
-50-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/09a5e9d7f702ea229ef09128ceac4045/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
-51        <uses-library
-51-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/09a5e9d7f702ea229ef09128ceac4045/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-52            android:name="androidx.window.sidecar"
-52-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/09a5e9d7f702ea229ef09128ceac4045/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
-53            android:required="false" />
-53-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/09a5e9d7f702ea229ef09128ceac4045/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-54
-55        <receiver
-55-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
-56            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-56-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
-57            android:directBootAware="false"
-57-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
-58            android:enabled="true"
-58-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
-59            android:exported="true"
-59-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
-60            android:permission="android.permission.DUMP" >
-60-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
-61            <intent-filter>
-61-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
-62                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-62-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
-62-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/26e828d06854ab9d3957c681c93699c0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
-63            </intent-filter>
-64        </receiver>
-65    </application>
-66
-67</manifest>
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:18:17-77
+33-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:18:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+38            android:name="com.google.firebase.components.ComponentDiscoveryService"
+38-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:29:13-84
+39            android:directBootAware="true"
+39-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+40            android:exported="false" >
+40-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:30:13-37
+41            <meta-data
+41-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+42                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+42-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+43                android:value="com.google.firebase.components.ComponentRegistrar" />
+43-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+44            <meta-data
+44-->[com.google.firebase:firebase-installations:17.0.1] /home/micos/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+45                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+45-->[com.google.firebase:firebase-installations:17.0.1] /home/micos/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-installations:17.0.1] /home/micos/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+47        </service>
+48
+49        <provider
+49-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+50            android:name="com.google.firebase.provider.FirebaseInitProvider"
+50-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+51            android:authorities="com.origin.cpf_standard.firebaseinitprovider"
+51-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+53            android:exported="false"
+53-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+54            android:initOrder="100" />
+54-->[com.google.firebase:firebase-common:20.1.1] /home/micos/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+57            android:authorities="com.origin.cpf_standard.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] /home/micos/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/micos/.gradle/caches/transforms-3/d9db6b6f9ce68129424c2ebe8909f584/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/micos/.gradle/caches/transforms-3/d9db6b6f9ce68129424c2ebe8909f584/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/micos/.gradle/caches/transforms-3/d9db6b6f9ce68129424c2ebe8909f584/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+66-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
+67                android:value="androidx.startup" />
+67-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
+68        </provider>
+69
+70        <receiver
+70-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+71            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+71-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+74        </receiver>
+75
+76        <service
+76-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+77            android:name="com.google.android.gms.measurement.AppMeasurementService"
+77-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+78            android:enabled="true"
+78-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+79            android:exported="false" />
+79-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+80        <service
+80-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+81            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+81-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+84            android:permission="android.permission.BIND_JOB_SERVICE" />
+84-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:18.0.0] /home/micos/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:18.0.0] /home/micos/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:18.0.0] /home/micos/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/c763ab70c47b5df670b99f4f496dc518/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/c763ab70c47b5df670b99f4f496dc518/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/c763ab70c47b5df670b99f4f496dc518/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/c763ab70c47b5df670b99f4f496dc518/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/c763ab70c47b5df670b99f4f496dc518/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0] /home/micos/.gradle/caches/transforms-3/c763ab70c47b5df670b99f4f496dc518/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.0.1] /home/micos/.gradle/caches/transforms-3/f89dc9ebdbad77e2c73948c40a1456ff/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

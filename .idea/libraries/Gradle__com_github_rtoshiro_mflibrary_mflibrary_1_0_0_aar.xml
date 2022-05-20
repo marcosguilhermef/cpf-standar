@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.rtoshiro.mflibrary:mflibrary:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2e3550c3fea5b2086995d1563734e281/transformed/jetified-mflibrary-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e3550c3fea5b2086995d1563734e281/transformed/jetified-mflibrary-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2e3550c3fea5b2086995d1563734e281/transformed/jetified-mflibrary-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/952f8581c9bd99fd4b2e2db031828496/transformed/jetified-mflibrary-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/952f8581c9bd99fd4b2e2db031828496/transformed/jetified-mflibrary-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/952f8581c9bd99fd4b2e2db031828496/transformed/jetified-mflibrary-1.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rtoshiro.mflibrary/mflibrary/1.0.0/fad08bc4e0b8b0ee22a517853102395ebd8caec9/mflibrary-1.0.0-javadoc.jar!/" />

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-
+import androidx.navigation.Navigation;
 import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,8 +15,13 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import com.github.rtoshiro.util.format.SimpleMaskFormatter;
 import com.github.rtoshiro.util.format.text.MaskTextWatcher;
+import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.databinding.FragmentConsultarCpfBinding;
+import com.origin.cpf_standard.model.CPF;
+import com.origin.cpf_standard.model.ExceptionsCPF;
 import com.origin.cpf_standard.service.RequestRepository;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 
@@ -56,7 +61,7 @@ public class ConsultarCpf extends Fragment {
 
         ViewModel.getCaptcha().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
-            public void onChanged(String ImagteString) {
+            public void onChanged(@NotNull String ImagteString) {
                 if (ImagteString != null) {
                     String removeBASE64 = ImagteString.replace("data:image/png;base64", "");
                     byte[] decodedString = Base64.decode(removeBASE64, Base64.DEFAULT);
@@ -65,6 +70,55 @@ public class ConsultarCpf extends Fragment {
                 }
             }
         });
+
+        ViewModel.getSucesso().observe(getViewLifecycleOwner(), new Observer<CPF>() {
+            @Override
+            public void onChanged(CPF cpf) {
+                if(cpf != null){
+                    Bundle bundle = new Bundle();
+                    bundle.putString("cpf",cpf.getCpf());
+                    bundle.putString("nome",cpf.getNome());
+                    bundle.putString("status",cpf.getSituacao());
+                    bundle.putString("nascimento",cpf.getNascimento());
+                    bundle.putString("inscricao",cpf.getInscricao());
+                    bundle.putString("verificador",cpf.getDgVerificador());
+                    Navigation.findNavController(getActivity(),R.id.nav_host_fragment).navigate(R.id.navigation_informacoesCPF, bundle);
+                }
+            }
+        });
+
+        ViewModel.getErro().observe(getViewLifecycleOwner(), new Observer<ExceptionsCPF>() {
+            @Override
+            public void onChanged(ExceptionsCPF exceptionsCPF) {
+                if(exceptionsCPF != null){
+                    switch (exceptionsCPF.getField()){
+                        case "conexao": conexao(exceptionsCPF);
+                        break;
+                        case "input": input(exceptionsCPF);
+                        break;
+                    }
+                }
+
+            }
+
+            public void conexao(ExceptionsCPF exceptionsCPF){
+                    new MaterialAlertDialogBuilder(getContext(),R.style.MaterialAlertDialog_MaterialComponents)
+                            .setMessage(exceptionsCPF.getMensage())
+                            .setNegativeButton("Sair", (d,v) -> d.cancel())
+                            .setPositiveButton("Tentar de novo", (d,v) -> load())
+                            .show();
+
+            }
+
+            public void input(ExceptionsCPF exceptionsCPF){
+                new MaterialAlertDialogBuilder(getContext(),R.style.MaterialAlertDialog_MaterialComponents)
+                        .setMessage(exceptionsCPF.getMensage())
+                        .setNegativeButton("Ok", (d,v) -> d.cancel())
+                        .show();
+
+            }
+        });
+
         return binding.getRoot();
     }
 
@@ -98,5 +152,12 @@ public class ConsultarCpf extends Fragment {
         SimpleMaskFormatter mask = new SimpleMaskFormatter("NN/NN/NNNN");
         MaskTextWatcher mtw = new MaskTextWatcher(editText, mask);
         editText.addTextChangedListener(mtw);
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        ViewModel.getSucesso().setValue(null);
+        ViewModel.getErro().setValue(null);
+        ViewModel.getCaptcha().setValue(null);
     }
 }

@@ -10,4 +10,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#212529</color>
     <color name="background2">#394047</color>
+    <color name="green">#6BCF61</color>
+    <color name="red">#FF0000</color>
 </resources>

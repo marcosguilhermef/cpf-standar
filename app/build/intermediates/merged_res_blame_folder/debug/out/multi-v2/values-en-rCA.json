@@ -4,7 +4,24 @@
             "outputFile": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/f8d734a7d44310d84014d6ed621ec293/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/919b1e91a07ddbf34272a620f8cba519/transformed/core-1.7.0/res/values-en-rCA/values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "40",
+                        "startColumns": "4",
+                        "startOffsets": "3670",
+                        "endColumns": "100",
+                        "endOffsets": "3766"
+                    }
+                },
+                {
+                    "source": "/home/micos/.gradle/caches/transforms-3/7e32ef418ae6b3124e525b70bee8d701/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/3b690f4a0183621e772c00f9b466e171/transformed/jetified-ui-1.0.1/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/7cd477e166ba92695f2b53b46f9e6811/transformed/jetified-ui-1.0.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "2762,2854,2936,3030,3112,3212,3301,3385,3450,3597,3771,3837",
                         "endColumns": "91,81,93,81,99,88,83,64,63,72,65,120",
                         "endOffsets": "2849,2931,3025,3107,3207,3296,3380,3445,3509,3665,3832,3953"
-                    }
-                },
-                {
-                    "source": "/home/micos/.gradle/caches/transforms-3/21249a56641fb0309777a5ae16ce99ff/transformed/core-1.7.0/res/values-en-rCA/values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "40",
-                        "startColumns": "4",
-                        "startOffsets": "3670",
-                        "endColumns": "100",
-                        "endOffsets": "3766"
                     }
                 }
             ]

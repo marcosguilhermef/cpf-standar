@@ -55,8 +55,8 @@ public class home extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding =  FragmentHomeBinding.inflate(inflater,container, false);
         binding.consultarCpf.card.setOnClickListener(click("consultarCpf"));
-        binding.consultarCnpj.card.setOnClickListener(click("consultarCnpj"));
-        binding.consultarHistorico.card.setOnClickListener(click("consultarHistorico"));
+        //binding.consultarCnpj.card.setOnClickListener(click("consultarCnpj"));
+        //binding.consultarHistorico.card.setOnClickListener(click("consultarHistorico"));
         binding.consultarScoreSerasa.card.setOnClickListener(click("consultarScoreSerasa"));
 
         return binding.getRoot();

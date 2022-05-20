@@ -4,7 +4,7 @@
             "outputFile": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/f8d734a7d44310d84014d6ed621ec293/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/7e32ef418ae6b3124e525b70bee8d701/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

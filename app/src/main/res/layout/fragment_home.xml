@@ -31,9 +31,13 @@
             android:text="@string/texto_2"
             />
         <include android:id="@+id/consultar_cpf" layout="@layout/consultar_cpf"/>
+<!--
         <include android:id="@+id/consultar_cnpj" layout="@layout/consultar_cnpj"/>
+-->
         <include android:id="@+id/consultar_score_serasa" layout="@layout/consultar_score_serasa"/>
+<!--
         <include android:id="@+id/consultar_historico" layout="@layout/consultar_historico"/>
+-->
     </LinearLayout>
 
 </FrameLayout>

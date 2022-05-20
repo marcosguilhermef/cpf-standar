@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/status"
-            android:textSize="50dp"
+            android:textSize="35dp"
             android:textAlignment="center"
             android:paddingVertical="20dp"
             android:background="@color/green"
@@ -55,10 +55,13 @@
                     />
                 <TextView
                     android:id="@+id/nomeField"
+                    android:layout_width="wrap_content"
+                    android:textSize="13dp"
                     android:padding="30dp"
-                    android:gravity="center"
-                    android:textSize="15dp"
-                    />
+                    android:gravity="left"
+                    android:maxEms="15"
+                    android:singleLine="false"
+                 />
             </TableRow>
 
             <TableRow>
@@ -72,7 +75,7 @@
                     android:id="@+id/nascimentoField"
                     android:gravity="left"
                     android:padding="30dp"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     />
             </TableRow>
             <TableRow>
@@ -84,9 +87,11 @@
                     />
                 <TextView
                     android:id="@+id/dataInscricaoField"
+                    android:layout_width="wrap_content"
                     android:padding="30dp"
-                    android:textSize="20dp"
                     android:gravity="left"
+                    android:maxEms="15"
+                    android:singleLine="false"
                     />
             </TableRow>
             <TableRow>

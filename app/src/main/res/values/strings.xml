@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">cpf-standard</string>
+    <string name="app_name">Consulta CPF - Score, Dívidas, Nome Sujo, Situação</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_consultar">Consultar Cpf</string>
@@ -21,4 +21,10 @@
     <string name="buscar">BUSCAR</string>
     <string name="captch">CAPTCHA</string>
     <string name="nascimento">Nascimento</string>
+    <string name="title_informacoes">Informações CPF</string>
+    <string name="status" />
+    <string name="nome">Nome</string>
+    <string name="dataInscricao">Data de inscrição</string>
+    <string name="verificador">Verificador</string>
+    <string name="instrucao">CAPATCHA: Captcha é o código de segurança que aparece na imagem acima. Ele serve para garantir que você não seja um robô.</string>
 </resources>

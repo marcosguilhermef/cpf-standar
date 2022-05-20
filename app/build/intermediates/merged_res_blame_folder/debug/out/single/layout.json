@@ -28,6 +28,10 @@
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_home.xml"
     },
     {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_informacoes_c_p_f.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_informacoes_c_p_f.xml"
+    },
+    {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_formulario_consultar_score_serasa.xml",
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_formulario_consultar_score_serasa.xml"
     },

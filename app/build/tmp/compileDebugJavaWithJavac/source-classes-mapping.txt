@@ -1,21 +1,21 @@
-com/origin/cpf_standard/databinding/FragmentHomeBinding.java
- com.origin.cpf_standard.databinding.FragmentHomeBinding
-com/origin/cpf_standard/BuildConfig.java
- com.origin.cpf_standard.BuildConfig
-com/origin/cpf_standard/ui/historico_consultar_cpf/HistoricoConsultaCpf.java
- com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaCpf
-com/origin/cpf_standard/databinding/ConsultarScoreSerasaBinding.java
- com.origin.cpf_standard.databinding.ConsultarScoreSerasaBinding
 com/origin/cpf_standard/databinding/ConsultarHistoricoBinding.java
  com.origin.cpf_standard.databinding.ConsultarHistoricoBinding
+com/origin/cpf_standard/BuildConfig.java
+ com.origin.cpf_standard.BuildConfig
+com/origin/cpf_standard/ui/consultar_cpf/ConsultarCPFViewModel.java
+ com.origin.cpf_standard.ui.consultar_cpf.ConsultarCPFViewModel
 com/origin/cpf_standard/databinding/FragmentConsultarCNPJBinding.java
  com.origin.cpf_standard.databinding.FragmentConsultarCNPJBinding
 com/origin/cpf_standard/databinding/ConsultarCnpjBinding.java
  com.origin.cpf_standard.databinding.ConsultarCnpjBinding
 com/origin/cpf_standard/ui/consultarCNPJ/consultarCNPJ.java
  com.origin.cpf_standard.ui.consultarCNPJ.consultarCNPJ
+com/origin/cpf_standard/model/ExceptionsCPF.java
+ com.origin.cpf_standard.model.ExceptionsCPF
 com/origin/cpf_standard/MainActivity.java
  com.origin.cpf_standard.MainActivity
+com/origin/cpf_standard/databinding/FragmentInformacoesCPFBinding.java
+ com.origin.cpf_standard.databinding.FragmentInformacoesCPFBinding
 com/origin/cpf_standard/databinding/FragmentFormularioConsultarScoreSerasaBinding.java
  com.origin.cpf_standard.databinding.FragmentFormularioConsultarScoreSerasaBinding
 com/origin/cpf_standard/databinding/ActivityMainBinding.java
@@ -27,19 +27,27 @@ com/origin/cpf_standard/databinding/ConsultarCpfBinding.java
 com/origin/cpf_standard/ui/home/home.java
  com.origin.cpf_standard.ui.home.home
  com.origin.cpf_standard.ui.home.home$1
-com/origin/cpf_standard/ui/consultarScoreSerasa/FormularioConsultarHistoricoSerasa.java
- com.origin.cpf_standard.ui.consultarScoreSerasa.FormularioConsultarHistoricoSerasa
-com/origin/cpf_standard/databinding/FragmentConsultarCpfBinding.java
- com.origin.cpf_standard.databinding.FragmentConsultarCpfBinding
-com/origin/cpf_standard/service/ReceitaService.java
- com.origin.cpf_standard.service.ReceitaService
-com/origin/cpf_standard/ui/consultar_cpf/ConsultarCPFViewModel.java
- com.origin.cpf_standard.ui.consultar_cpf.ConsultarCPFViewModel
 com/origin/cpf_standard/ui/consultar_cpf/ConsultarCpf.java
  com.origin.cpf_standard.ui.consultar_cpf.ConsultarCpf
  com.origin.cpf_standard.ui.consultar_cpf.ConsultarCpf$1
+ com.origin.cpf_standard.ui.consultar_cpf.ConsultarCpf$2
+ com.origin.cpf_standard.ui.consultar_cpf.ConsultarCpf$3
 com/origin/cpf_standard/service/RequestRepository.java
  com.origin.cpf_standard.service.RequestRepository
  com.origin.cpf_standard.service.RequestRepository$1
  com.origin.cpf_standard.service.RequestRepository$2
  com.origin.cpf_standard.service.RequestRepository$SessionCookieJar
+com/origin/cpf_standard/databinding/FragmentConsultarCpfBinding.java
+ com.origin.cpf_standard.databinding.FragmentConsultarCpfBinding
+com/origin/cpf_standard/ui/historico_consultar_cpf/HistoricoConsultaCpf.java
+ com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaCpf
+com/origin/cpf_standard/databinding/FragmentHomeBinding.java
+ com.origin.cpf_standard.databinding.FragmentHomeBinding
+com/origin/cpf_standard/model/CPF.java
+ com.origin.cpf_standard.model.CPF
+com/origin/cpf_standard/ui/InformacoesCPF/InformacoesCPF.java
+ com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF
+com/origin/cpf_standard/ui/consultarScoreSerasa/FormularioConsultarHistoricoSerasa.java
+ com.origin.cpf_standard.ui.consultarScoreSerasa.FormularioConsultarHistoricoSerasa
+com/origin/cpf_standard/databinding/ConsultarScoreSerasaBinding.java
+ com.origin.cpf_standard.databinding.ConsultarScoreSerasaBinding

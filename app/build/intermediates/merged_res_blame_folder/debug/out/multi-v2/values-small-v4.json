@@ -4,7 +4,7 @@
             "outputFile": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/9c00f1a92bd4256808db8409fc9ffcce/transformed/material-1.6.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/53205efc2464613001ec383a10ebd674/transformed/material-1.6.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

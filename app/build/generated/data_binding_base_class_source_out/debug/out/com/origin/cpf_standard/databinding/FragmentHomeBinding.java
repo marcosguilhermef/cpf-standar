@@ -19,25 +19,16 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final ConsultarCnpjBinding consultarCnpj;
-
-  @NonNull
   public final ConsultarCpfBinding consultarCpf;
-
-  @NonNull
-  public final ConsultarHistoricoBinding consultarHistorico;
 
   @NonNull
   public final ConsultarScoreSerasaBinding consultarScoreSerasa;
 
   private FragmentHomeBinding(@NonNull FrameLayout rootView,
-      @NonNull ConsultarCnpjBinding consultarCnpj, @NonNull ConsultarCpfBinding consultarCpf,
-      @NonNull ConsultarHistoricoBinding consultarHistorico,
+      @NonNull ConsultarCpfBinding consultarCpf,
       @NonNull ConsultarScoreSerasaBinding consultarScoreSerasa) {
     this.rootView = rootView;
-    this.consultarCnpj = consultarCnpj;
     this.consultarCpf = consultarCpf;
-    this.consultarHistorico = consultarHistorico;
     this.consultarScoreSerasa = consultarScoreSerasa;
   }
 
@@ -68,26 +59,12 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.consultar_cnpj;
-      View consultarCnpj = ViewBindings.findChildViewById(rootView, id);
-      if (consultarCnpj == null) {
-        break missingId;
-      }
-      ConsultarCnpjBinding binding_consultarCnpj = ConsultarCnpjBinding.bind(consultarCnpj);
-
       id = R.id.consultar_cpf;
       View consultarCpf = ViewBindings.findChildViewById(rootView, id);
       if (consultarCpf == null) {
         break missingId;
       }
       ConsultarCpfBinding binding_consultarCpf = ConsultarCpfBinding.bind(consultarCpf);
-
-      id = R.id.consultar_historico;
-      View consultarHistorico = ViewBindings.findChildViewById(rootView, id);
-      if (consultarHistorico == null) {
-        break missingId;
-      }
-      ConsultarHistoricoBinding binding_consultarHistorico = ConsultarHistoricoBinding.bind(consultarHistorico);
 
       id = R.id.consultar_score_serasa;
       View consultarScoreSerasa = ViewBindings.findChildViewById(rootView, id);
@@ -96,8 +73,8 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
       ConsultarScoreSerasaBinding binding_consultarScoreSerasa = ConsultarScoreSerasaBinding.bind(consultarScoreSerasa);
 
-      return new FragmentHomeBinding((FrameLayout) rootView, binding_consultarCnpj,
-          binding_consultarCpf, binding_consultarHistorico, binding_consultarScoreSerasa);
+      return new FragmentHomeBinding((FrameLayout) rootView, binding_consultarCpf,
+          binding_consultarScoreSerasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

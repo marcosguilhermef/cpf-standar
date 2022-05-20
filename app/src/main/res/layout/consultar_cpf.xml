@@ -14,6 +14,7 @@
         android:tag="@string/title_consultar"
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
+
         app:cardBackgroundColor="@color/background2"
         app:cardCornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +28,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/icones_350_x_350_px_final_07"
+                android:padding="15dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"

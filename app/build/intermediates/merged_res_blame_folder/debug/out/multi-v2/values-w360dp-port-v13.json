@@ -4,7 +4,7 @@
             "outputFile": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/9c00f1a92bd4256808db8409fc9ffcce/transformed/material-1.6.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/53205efc2464613001ec383a10ebd674/transformed/material-1.6.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
