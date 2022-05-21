@@ -56,7 +56,7 @@ public class home extends Fragment {
         binding =  FragmentHomeBinding.inflate(inflater,container, false);
         binding.consultarCpf.card.setOnClickListener(click("consultarCpf"));
         //binding.consultarCnpj.card.setOnClickListener(click("consultarCnpj"));
-        //binding.consultarHistorico.card.setOnClickListener(click("consultarHistorico"));
+        binding.consultarHistorico.card.setOnClickListener(click("consultarHistorico"));
         binding.consultarScoreSerasa.card.setOnClickListener(click("consultarScoreSerasa"));
 
         return binding.getRoot();

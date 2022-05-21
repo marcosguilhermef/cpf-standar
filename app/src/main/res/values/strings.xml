@@ -27,4 +27,6 @@
     <string name="dataInscricao">Data de inscrição</string>
     <string name="verificador">Verificador</string>
     <string name="instrucao">CAPATCHA: Captcha é o código de segurança que aparece na imagem acima. Ele serve para garantir que você não seja um robô.</string>
+    <string name="app_id">ca-app-pub-8817634033676287~5211696946</string>
+    <string name="banner_ad_unit_id_intersticial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
 </resources>

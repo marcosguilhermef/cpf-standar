@@ -22,13 +22,18 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ConsultarCpfBinding consultarCpf;
 
   @NonNull
+  public final ConsultarHistoricoBinding consultarHistorico;
+
+  @NonNull
   public final ConsultarScoreSerasaBinding consultarScoreSerasa;
 
   private FragmentHomeBinding(@NonNull FrameLayout rootView,
       @NonNull ConsultarCpfBinding consultarCpf,
+      @NonNull ConsultarHistoricoBinding consultarHistorico,
       @NonNull ConsultarScoreSerasaBinding consultarScoreSerasa) {
     this.rootView = rootView;
     this.consultarCpf = consultarCpf;
+    this.consultarHistorico = consultarHistorico;
     this.consultarScoreSerasa = consultarScoreSerasa;
   }
 
@@ -66,6 +71,13 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
       ConsultarCpfBinding binding_consultarCpf = ConsultarCpfBinding.bind(consultarCpf);
 
+      id = R.id.consultar_historico;
+      View consultarHistorico = ViewBindings.findChildViewById(rootView, id);
+      if (consultarHistorico == null) {
+        break missingId;
+      }
+      ConsultarHistoricoBinding binding_consultarHistorico = ConsultarHistoricoBinding.bind(consultarHistorico);
+
       id = R.id.consultar_score_serasa;
       View consultarScoreSerasa = ViewBindings.findChildViewById(rootView, id);
       if (consultarScoreSerasa == null) {
@@ -74,7 +86,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       ConsultarScoreSerasaBinding binding_consultarScoreSerasa = ConsultarScoreSerasaBinding.bind(consultarScoreSerasa);
 
       return new FragmentHomeBinding((FrameLayout) rootView, binding_consultarCpf,
-          binding_consultarScoreSerasa);
+          binding_consultarHistorico, binding_consultarScoreSerasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

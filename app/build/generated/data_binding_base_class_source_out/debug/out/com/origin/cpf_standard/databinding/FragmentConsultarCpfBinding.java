@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -46,10 +47,13 @@ public final class FragmentConsultarCpfBinding implements ViewBinding {
   @NonNull
   public final EditText nascimentoText;
 
+  @NonNull
+  public final ProgressBar progressCircular;
+
   private FragmentConsultarCpfBinding(@NonNull FrameLayout rootView, @NonNull TextInputLayout CPF,
       @NonNull Button button, @NonNull TextInputLayout captcha, @NonNull ImageView captchaImage,
       @NonNull EditText captchaText, @NonNull EditText cpfText, @NonNull TextInputLayout nascimento,
-      @NonNull EditText nascimentoText) {
+      @NonNull EditText nascimentoText, @NonNull ProgressBar progressCircular) {
     this.rootView = rootView;
     this.CPF = CPF;
     this.button = button;
@@ -59,6 +63,7 @@ public final class FragmentConsultarCpfBinding implements ViewBinding {
     this.cpfText = cpfText;
     this.nascimento = nascimento;
     this.nascimentoText = nascimentoText;
+    this.progressCircular = progressCircular;
   }
 
   @Override
@@ -136,8 +141,14 @@ public final class FragmentConsultarCpfBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progress_circular;
+      ProgressBar progressCircular = ViewBindings.findChildViewById(rootView, id);
+      if (progressCircular == null) {
+        break missingId;
+      }
+
       return new FragmentConsultarCpfBinding((FrameLayout) rootView, CPF, button, captcha,
-          captchaImage, captchaText, cpfText, nascimento, nascimentoText);
+          captchaImage, captchaText, cpfText, nascimento, nascimentoText, progressCircular);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

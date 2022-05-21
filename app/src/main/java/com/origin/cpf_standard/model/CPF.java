@@ -1,6 +1,15 @@
 package com.origin.cpf_standard.model;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+
+@Entity
 public class CPF {
+    @PrimaryKey(autoGenerate = true)
+    private long id;
     private String cpf;
     private String nome;
     private String nascimento;
@@ -9,7 +18,11 @@ public class CPF {
     private String dgVerificador;
     private String comprovante;
     private String codigo;
+    private String created_ad;
 
+    public CPF(){
+        generateCreated_ad();
+    }
     public String getCpf() {
         return cpf;
     }
@@ -72,5 +85,26 @@ public class CPF {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+    public long getId() {
+        return id;
+    }
+
+    public String getCreated_ad() {
+        return created_ad;
+    }
+
+    public void setCreated_ad(String created_ad) {
+        this.created_ad = created_ad;
+    }
+
+    public void generateCreated_ad() {
+        SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+        Date date = new Date(System.currentTimeMillis());
+        setCreated_ad(formatter.format(date));
     }
 }

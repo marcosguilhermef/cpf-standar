@@ -49,7 +49,11 @@
         android:id="@+id/navigation_consultar_historico"
         android:name="com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaCpf"
         android:label="@string/title_consultar"
-        tools:layout="@layout/fragment_historico_consulta_cpf" />
+        tools:layout="@layout/fragment_historico_consulta_cpf" >
+        <action
+            android:id="@+id/action_navigation_consultar_historico_to_navigation_informacoesCPF"
+            app:destination="@id/navigation_informacoesCPF" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_informacoesCPF"

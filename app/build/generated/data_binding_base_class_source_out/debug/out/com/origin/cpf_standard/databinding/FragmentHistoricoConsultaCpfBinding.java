@@ -5,19 +5,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.origin.cpf_standard.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHistoricoConsultaCpfBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentHistoricoConsultaCpfBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final ListView listView;
+
+  private FragmentHistoricoConsultaCpfBinding(@NonNull FrameLayout rootView,
+      @NonNull ListView listView) {
     this.rootView = rootView;
+    this.listView = listView;
   }
 
   @Override
@@ -43,10 +51,19 @@ public final class FragmentHistoricoConsultaCpfBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHistoricoConsultaCpfBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.listView;
+      ListView listView = ViewBindings.findChildViewById(rootView, id);
+      if (listView == null) {
+        break missingId;
+      }
 
-    return new FragmentHistoricoConsultaCpfBinding((FrameLayout) rootView);
+      return new FragmentHistoricoConsultaCpfBinding((FrameLayout) rootView, listView);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
