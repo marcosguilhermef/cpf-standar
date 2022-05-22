@@ -6,6 +6,7 @@
     xmlns:svgimageview="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".ui.consultar_cpf.ConsultarCpf">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,14 +14,6 @@
         android:layout_width="match_parent"
         >
 
-        <ProgressBar
-            android:id="@+id/progress_circular"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:translationZ="10dp"
-            android:background="@color/background"
-            android:visibility="gone"
-            style="?android:attr/progressBarStyleLarge" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/CPF"

@@ -9,6 +9,15 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:translationZ="10dp"
+            android:background="@color/background"
+            android:visibility="visible"
+            style="?android:attr/progressBarStyleLarge" />
+
         <TextView
             android:id="@+id/status"
             android:layout_width="match_parent"

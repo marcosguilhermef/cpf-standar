@@ -16,27 +16,14 @@ public class ads {
     private static InterstitialAd mInterstitialAd;
     private static int counterClick = 0;
     private final static int PARSER = 3;
-    public static void initADS(Context context, FullScreenContentCallback fullCallback){
+    public static void initADS(Context context, InterstitialAdLoadCallback interticialCallBack){
         AdRequest adRequest = new AdRequest.Builder().build();
         if(mInterstitialAd != null & (counterClick % PARSER == 0) ){
-            InterstitialAd.load(context, context.getString(R.string.banner_ad_unit_id_intersticial), adRequest, interticialCallBack(fullCallback));
+            InterstitialAd.load(context, context.getString(R.string.banner_ad_unit_id_intersticial), adRequest, interticialCallBack);
             count();
         }
     }
 
-    private final static InterstitialAdLoadCallback interticialCallBack(FullScreenContentCallback callback){
-        return new InterstitialAdLoadCallback(){
-            public void onAdFailedToLoad( LoadAdError loadAdError) {
-                Log.i("Ads", "mInterstitialAd " + loadAdError.getMessage());
-                mInterstitialAd = null;
-            }
-
-            public void onAdLoaded(InterstitialAd interstitialAd) {
-                mInterstitialAd = interstitialAd;
-                mInterstitialAd.setFullScreenContentCallback(callback);
-            }
-        };
-    }
 
     private final static void count(){
         counterClick++;

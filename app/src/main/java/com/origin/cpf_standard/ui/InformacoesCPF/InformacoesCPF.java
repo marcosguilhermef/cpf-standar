@@ -2,11 +2,20 @@ package com.origin.cpf_standard.ui.InformacoesCPF;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.databinding.FragmentInformacoesCPFBinding;
 
@@ -14,12 +23,18 @@ public class InformacoesCPF extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    private InterstitialAd mInterstitialAd;
+    private static int counterClick = 0;
+    private final static int PARSER = 3;
+
+
     private static final String cpf = "cpf";
     private static final String nome = "nome";
     private static final String status = "status";
     private static final String nascimento = "nascimento";
     private static final String inscricao = "inscricao";
     private static final String verificador = "verificador";
+
 
     private String Pcpf;
     private String Pnome;
@@ -48,6 +63,7 @@ public class InformacoesCPF extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding =  FragmentInformacoesCPFBinding.inflate(inflater,container, false);
+        initADS();
         binding.cpfField.setText(Pcpf);
         binding.nascimentoField.setText(Pnascimento);
         if("REGULAR".replace(" ","").equals(Pstatus)){
@@ -76,5 +92,69 @@ public class InformacoesCPF extends Fragment {
             }
         }
         return newName;
+    }
+
+    private void initADS(){
+        AdRequest adRequest = new AdRequest.Builder().build();
+
+        if(mInterstitialAd != null || (counterClick % PARSER == 0) ){
+            InterstitialAd.load(getContext(), getString(R.string.banner_ad_unit_id_intersticial), adRequest, interticialCallBack());
+            count();
+        }else{
+            binding.progressCircular.setVisibility(View.GONE);
+            count();
+        }
+    }
+    private void count(){
+        counterClick++;
+    }
+
+    private InterstitialAdLoadCallback interticialCallBack(){
+        return new InterstitialAdLoadCallback(){
+            public void onAdFailedToLoad( LoadAdError loadAdError) {
+                binding.progressCircular.setVisibility(View.GONE);
+                mInterstitialAd = null;
+            }
+
+            public void onAdLoaded(InterstitialAd interstitialAd) {
+                mInterstitialAd = interstitialAd;
+                mInterstitialAd.show(getActivity());
+                mInterstitialAd.setFullScreenContentCallback(fullScreeeCallBack());
+            }
+        };
+    }
+
+    private FullScreenContentCallback fullScreeeCallBack(){
+        return new FullScreenContentCallback() {
+            @Override
+            public void onAdClicked() {
+                super.onAdClicked();
+                binding.progressCircular.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAdDismissedFullScreenContent() {
+                super.onAdDismissedFullScreenContent();
+                binding.progressCircular.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
+                super.onAdFailedToShowFullScreenContent(adError);
+                binding.progressCircular.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAdImpression() {
+                super.onAdImpression();
+                //binding.progressCircular.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAdShowedFullScreenContent() {
+                super.onAdShowedFullScreenContent();
+                binding.progressCircular.setVisibility(View.GONE);
+            }
+        };
     }
 }

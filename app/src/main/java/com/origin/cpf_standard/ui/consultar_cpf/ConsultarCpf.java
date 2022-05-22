@@ -1,6 +1,7 @@
 package com.origin.cpf_standard.ui.consultar_cpf;
 
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -15,9 +16,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
+
 import com.github.rtoshiro.util.format.SimpleMaskFormatter;
 import com.github.rtoshiro.util.format.text.MaskTextWatcher;
 import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
@@ -42,7 +46,9 @@ public class ConsultarCpf extends Fragment {
     private FragmentConsultarCpfBinding binding;
     private ConsultarCPFViewModel ViewModel;
     private RequestRepository request;
-    private InterstitialAd mInterstitialAd;
+
+
+
 
     public ConsultarCpf() {
         // Required empty public constructor
@@ -68,8 +74,6 @@ public class ConsultarCpf extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding =  FragmentConsultarCpfBinding.inflate(inflater,container, false);
-        //ads.initADS(getContext(),fullScreeeCallBack());
-        //ads.getAds().show(getActivity());
         formatCpf();
         formatNascimento();
         load();
@@ -162,34 +166,7 @@ public class ConsultarCpf extends Fragment {
         });
     }
 
-    private FullScreenContentCallback fullScreeeCallBack(){
-        return new FullScreenContentCallback() {
-            @Override
-            public void onAdClicked() {
-                super.onAdClicked();
-            }
 
-            @Override
-            public void onAdDismissedFullScreenContent() {
-                super.onAdDismissedFullScreenContent();
-            }
-
-            @Override
-            public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
-                super.onAdFailedToShowFullScreenContent(adError);
-            }
-
-            @Override
-            public void onAdImpression() {
-                super.onAdImpression();
-            }
-
-            @Override
-            public void onAdShowedFullScreenContent() {
-                super.onAdShowedFullScreenContent();
-            }
-        };
-    }
 
     private void load(){
         request = new RequestRepository();
