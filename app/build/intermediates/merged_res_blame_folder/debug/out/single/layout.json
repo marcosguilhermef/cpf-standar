@@ -16,8 +16,20 @@
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/consultar_cpf.xml"
     },
     {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_boa_vista_consultar.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_boa_vista_consultar.xml"
+    },
+    {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_informacoes_c_p_f.xml",
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_informacoes_c_p_f.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_boa_vista.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_boa_vista.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/activity_splash.xml"
     },
     {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_consultar_c_n_p_j.xml",

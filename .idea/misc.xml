@@ -5,12 +5,16 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/logo.xml" value="0.3148148148148148" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2871376811594203" />
         <entry key="app/src/main/res/layout/consultar_cnpj.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/consultar_cpf.xml" value="0.22" />
         <entry key="app/src/main/res/layout/consultar_historico.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/consultar_score_serasa.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/cpf.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_boa_vista.xml" value="0.20153985507246377" />
+        <entry key="app/src/main/res/layout/fragment_boa_vista_consultar.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_consultar_c_n_p_j.xml" value="0.2803442028985507" />
         <entry key="app/src/main/res/layout/fragment_consultar_cpf.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment_formulario_consultar_score_serasa.xml" value="0.33" />

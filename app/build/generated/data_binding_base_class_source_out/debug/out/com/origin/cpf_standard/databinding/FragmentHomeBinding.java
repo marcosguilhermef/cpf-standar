@@ -19,6 +19,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final FragmentBoaVistaBinding consultarBoaVista;
+
+  @NonNull
   public final ConsultarCpfBinding consultarCpf;
 
   @NonNull
@@ -28,10 +31,11 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ConsultarScoreSerasaBinding consultarScoreSerasa;
 
   private FragmentHomeBinding(@NonNull FrameLayout rootView,
-      @NonNull ConsultarCpfBinding consultarCpf,
+      @NonNull FragmentBoaVistaBinding consultarBoaVista, @NonNull ConsultarCpfBinding consultarCpf,
       @NonNull ConsultarHistoricoBinding consultarHistorico,
       @NonNull ConsultarScoreSerasaBinding consultarScoreSerasa) {
     this.rootView = rootView;
+    this.consultarBoaVista = consultarBoaVista;
     this.consultarCpf = consultarCpf;
     this.consultarHistorico = consultarHistorico;
     this.consultarScoreSerasa = consultarScoreSerasa;
@@ -64,6 +68,13 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.consultar_boa_vista;
+      View consultarBoaVista = ViewBindings.findChildViewById(rootView, id);
+      if (consultarBoaVista == null) {
+        break missingId;
+      }
+      FragmentBoaVistaBinding binding_consultarBoaVista = FragmentBoaVistaBinding.bind(consultarBoaVista);
+
       id = R.id.consultar_cpf;
       View consultarCpf = ViewBindings.findChildViewById(rootView, id);
       if (consultarCpf == null) {
@@ -85,8 +96,8 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
       ConsultarScoreSerasaBinding binding_consultarScoreSerasa = ConsultarScoreSerasaBinding.bind(consultarScoreSerasa);
 
-      return new FragmentHomeBinding((FrameLayout) rootView, binding_consultarCpf,
-          binding_consultarHistorico, binding_consultarScoreSerasa);
+      return new FragmentHomeBinding((FrameLayout) rootView, binding_consultarBoaVista,
+          binding_consultarCpf, binding_consultarHistorico, binding_consultarScoreSerasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

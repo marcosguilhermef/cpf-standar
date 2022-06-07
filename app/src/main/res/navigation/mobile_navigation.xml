@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_home_to_navigation_consultar_cnpj"
             app:destination="@id/navigation_consultar_cnpj" />
+        <action
+            android:id="@+id/action_home_to_navigation_boa_vista"
+            app:destination="@id/navigation_boa_vista" />
     </fragment>
 
     <fragment
@@ -53,6 +56,13 @@
         <action
             android:id="@+id/action_navigation_consultar_historico_to_navigation_informacoesCPF"
             app:destination="@id/navigation_informacoesCPF" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_boa_vista"
+        android:name="com.origin.cpf_standard.ui.boavista_consulta.boa_vista_consultar"
+        android:label="@string/title_boa_vista"
+        tools:layout="@layout/fragment_boa_vista_consultar" >
     </fragment>
 
     <fragment

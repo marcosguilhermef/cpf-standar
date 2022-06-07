@@ -1,9 +1,10 @@
 package com.origin.cpf_standard.ui.InformacoesCPF;
 
-import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -19,13 +20,16 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.databinding.FragmentInformacoesCPFBinding;
 
+import java.util.Objects;
+
 public class InformacoesCPF extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private InterstitialAd mInterstitialAd;
     private static int counterClick = 0;
-    private final static int PARSER = 3;
+    private final static int PARSER = 1;
+    private ActionBar actionBar;
 
 
     private static final String cpf = "cpf";
@@ -98,6 +102,7 @@ public class InformacoesCPF extends Fragment {
         AdRequest adRequest = new AdRequest.Builder().build();
 
         if(mInterstitialAd != null || (counterClick % PARSER == 0) ){
+            fullscreeam();
             InterstitialAd.load(getContext(), getString(R.string.banner_ad_unit_id_intersticial), adRequest, interticialCallBack());
             count();
         }else{
@@ -109,11 +114,21 @@ public class InformacoesCPF extends Fragment {
         counterClick++;
     }
 
+    private void fullscreeam(){
+        ((AppCompatActivity) Objects.requireNonNull(getActivity())).getSupportActionBar().hide();
+
+    }
+
+    private void showscream(){
+        ((AppCompatActivity) Objects.requireNonNull(getActivity())).getSupportActionBar().show();
+
+    }
     private InterstitialAdLoadCallback interticialCallBack(){
         return new InterstitialAdLoadCallback(){
             public void onAdFailedToLoad( LoadAdError loadAdError) {
                 binding.progressCircular.setVisibility(View.GONE);
                 mInterstitialAd = null;
+                showscream();
             }
 
             public void onAdLoaded(InterstitialAd interstitialAd) {
@@ -130,30 +145,33 @@ public class InformacoesCPF extends Fragment {
             public void onAdClicked() {
                 super.onAdClicked();
                 binding.progressCircular.setVisibility(View.GONE);
+                showscream();
             }
 
             @Override
             public void onAdDismissedFullScreenContent() {
                 super.onAdDismissedFullScreenContent();
                 binding.progressCircular.setVisibility(View.GONE);
+                showscream();
             }
 
             @Override
             public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                 super.onAdFailedToShowFullScreenContent(adError);
                 binding.progressCircular.setVisibility(View.GONE);
+                showscream();
             }
 
             @Override
             public void onAdImpression() {
                 super.onAdImpression();
-                //binding.progressCircular.setVisibility(View.GONE);
             }
 
             @Override
             public void onAdShowedFullScreenContent() {
                 super.onAdShowedFullScreenContent();
                 binding.progressCircular.setVisibility(View.GONE);
+                showscream();
             }
         };
     }

@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -43,6 +44,8 @@ public class HistoricoConsultaCpf extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+
         binding = FragmentHistoricoConsultaCpfBinding.inflate(inflater, container, false);
         viewModel = new ViewModelProvider(this, new ViewModelObjectFactory(getContext())).get(HistoricoConsultaViewModel.class);
 

@@ -6,14 +6,9 @@ import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
-
 import com.origin.cpf_standard.databinding.ActivityMainBinding;
-
-import android.app.AlertDialog;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
+import com.facebook.FacebookSdk;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;

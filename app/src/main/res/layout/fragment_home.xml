@@ -31,6 +31,7 @@
             />
         <include android:id="@+id/consultar_cpf" layout="@layout/consultar_cpf"/>
         <include android:id="@+id/consultar_score_serasa" layout="@layout/consultar_score_serasa"/>
+        <include android:id="@+id/consultar_boa_vista" layout="@layout/fragment_boa_vista"/>
         <include android:id="@+id/consultar_historico" layout="@layout/consultar_historico"/>
 
     </LinearLayout>

@@ -1,23 +1,15 @@
 package com.origin.cpf_standard.ui.historico_consultar_cpf;
 
 import android.app.Activity;
-import android.content.ActivityNotFoundException;
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-
 import androidx.navigation.Navigation;
-
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.model.CPF;

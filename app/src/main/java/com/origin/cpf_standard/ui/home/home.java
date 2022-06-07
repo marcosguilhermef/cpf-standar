@@ -58,7 +58,7 @@ public class home extends Fragment {
         //binding.consultarCnpj.card.setOnClickListener(click("consultarCnpj"));
         binding.consultarHistorico.card.setOnClickListener(click("consultarHistorico"));
         binding.consultarScoreSerasa.card.setOnClickListener(click("consultarScoreSerasa"));
-
+        binding.consultarBoaVista.card.setOnClickListener(click("consultar_boa_vista"));
         return binding.getRoot();
     }
 
@@ -74,6 +74,8 @@ public class home extends Fragment {
                     case "consultarCnpj": Navigation.findNavController(getActivity(),R.id.nav_host_fragment).navigate(R.id.navigation_consultar_cnpj);
                     break;
                     case "consultarHistorico": Navigation.findNavController(getActivity(),R.id.nav_host_fragment).navigate(R.id.navigation_consultar_historico);
+                    break;
+                    case "consultar_boa_vista": Navigation.findNavController(getActivity(),R.id.nav_host_fragment).navigate(R.id.navigation_boa_vista);
                     break;
                 }
             }
