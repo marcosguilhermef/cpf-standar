@@ -32,6 +32,7 @@ MERGED from [androidx.room:room-runtime:2.4.1] /home/micos/.gradle/caches/transf
 MERGED from [androidx.paging:paging-runtime:3.1.1] /home/micos/.gradle/caches/transforms-3/a5ef74e0d8557d6e4bed33b5d13cf1dc/transformed/paging-runtime-3.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.paging:paging-rxjava3:3.1.1] /home/micos/.gradle/caches/transforms-3/d544f7e87f8bd31f7ff064e713e9abc4/transformed/jetified-paging-rxjava3-3.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /home/micos/.gradle/caches/transforms-3/d33c694c10fd751984aa197bc17c4e0b/transformed/jetified-rxandroid-3.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta02] /home/micos/.gradle/caches/transforms-3/4641e3c638edabdcaa578881f2b7a9b9/transformed/jetified-core-splashscreen-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
 MERGED from [com.unity3d.ads:unity-ads:4.1.0] /home/micos/.gradle/caches/transforms-3/7ca1cd38f6b262d6f3bb3cd9ebd7ddb4/transformed/jetified-unity-ads-4.1.0/AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/micos/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
@@ -281,7 +282,7 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /home/micos/.gradl
 	android:allowBackup
 		ADDED from /media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:16:9-49
+		ADDED from /media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:16:9-60
 meta-data#com.google.android.gms.ads.APPLICATION_ID
 ADDED from /media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:18:9-21:15
 	android:value
@@ -376,6 +377,8 @@ MERGED from [androidx.paging:paging-rxjava3:3.1.1] /home/micos/.gradle/caches/tr
 MERGED from [androidx.paging:paging-rxjava3:3.1.1] /home/micos/.gradle/caches/transforms-3/d544f7e87f8bd31f7ff064e713e9abc4/transformed/jetified-paging-rxjava3-3.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /home/micos/.gradle/caches/transforms-3/d33c694c10fd751984aa197bc17c4e0b/transformed/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /home/micos/.gradle/caches/transforms-3/d33c694c10fd751984aa197bc17c4e0b/transformed/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta02] /home/micos/.gradle/caches/transforms-3/4641e3c638edabdcaa578881f2b7a9b9/transformed/jetified-core-splashscreen-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta02] /home/micos/.gradle/caches/transforms-3/4641e3c638edabdcaa578881f2b7a9b9/transformed/jetified-core-splashscreen-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
 MERGED from [com.unity3d.ads:unity-ads:4.1.0] /home/micos/.gradle/caches/transforms-3/7ca1cd38f6b262d6f3bb3cd9ebd7ddb4/transformed/jetified-unity-ads-4.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.unity3d.ads:unity-ads:4.1.0] /home/micos/.gradle/caches/transforms-3/7ca1cd38f6b262d6f3bb3cd9ebd7ddb4/transformed/jetified-unity-ads-4.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /home/micos/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44

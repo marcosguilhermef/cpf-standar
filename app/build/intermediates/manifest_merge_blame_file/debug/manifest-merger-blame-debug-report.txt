@@ -101,8 +101,8 @@
 52        android:supportsRtl="true"
 52-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:15:9-35
 53        android:testOnly="true"
-54        android:theme="@style/Theme.Cpfstandard" >
-54-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:16:9-49
+54        android:theme="@style/Theme.AppCompat.SplashScreen" >
+54-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:16:9-60
 55        <meta-data
 55-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:18:9-21:15
 56            android:name="com.google.android.gms.ads.APPLICATION_ID"
