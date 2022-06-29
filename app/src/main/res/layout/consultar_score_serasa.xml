@@ -25,7 +25,7 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/a5421029_1376692542349131_6797381360829741858_n"
+                android:src="@drawable/s"
                 android:padding="15dp"
                 />
             <LinearLayout

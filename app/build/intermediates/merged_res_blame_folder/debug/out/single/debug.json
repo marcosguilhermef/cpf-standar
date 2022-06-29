@@ -76,8 +76,16 @@
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/drawable_bv.png.flat",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/drawable/bv.png"
+    },
+    {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/layout_consultar_historico.xml.flat",
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/consultar_historico.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/xml_network_security_config.xml.flat",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/xml/network_security_config.xml"
     },
     {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -110,6 +118,10 @@
     {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat",
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/drawable_s.png.flat",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/drawable/s.png"
     },
     {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",

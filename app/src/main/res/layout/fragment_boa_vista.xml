@@ -26,7 +26,7 @@
                 android:background="@color/grey11"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/logo"
+                android:src="@drawable/bv"
                 android:padding="15dp"
                 />
             <LinearLayout

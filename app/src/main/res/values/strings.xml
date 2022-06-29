@@ -37,13 +37,14 @@
     <string name="verificador">Verificador</string>
     <string name="instrucao">CAPATCHA: Captcha é o código de segurança que aparece na imagem acima. Ele serve para garantir que você não seja um robô.</string>
     <string name="app_id" translatable="false">ca-app-pub-8817634033676287~5211696946</string>
-    <string name="banner_ad_unit_id_intersticial" translatable="false">ca-app-pub-8817634033676287/5899497626</string>
+    <string name="banner_ad_unit_id_intersticial" translatable="false">ca-app-pub-8817634033676287/9723592912</string>
     <string name="title_activity_splash">Splash</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="facebook_app_id">683869172676275</string>
-    <string name="facebook_client_token">0b1c2bdb9556b3118e58bbe5a0977367</string>
+    <string name="facebook_app_id">1926442160881505</string>
+    <string name="facebook_client_token">37cb5297c347453dfb63229a6ef3beac</string>
     <string name="title_boa_vista">Boa Vista</string>
     <string name="texto_10">Verifique suas divídas através da boa vista consumidor.</string>
     <string name="texto_11">Consultar Score no Boa Vista</string>
+    <string name="appodeal_token">56369a5edff6a5c3837df24c575d19458d017388e02ad3ae</string>
 </resources>

@@ -1,28 +1,17 @@
 package com.origin.cpf_standard.ui.historico_consultar_cpf;
 
-import android.graphics.ColorSpace;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.Navigation;
-
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
-
-import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.databinding.FragmentHistoricoConsultaCpfBinding;
 import com.origin.cpf_standard.model.CPF;
-import com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaViewModel;
-
 import java.util.List;
-
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 

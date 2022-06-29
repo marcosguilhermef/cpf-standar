@@ -31,7 +31,6 @@ public class CpfsAdapter extends BaseAdapter {
         this.listData = listData;
         layoutInflater = LayoutInflater.from(aContext);
         this.activity = activity;
-        //mFirebaseAnalytics = FirebaseAnalytics.getInstance(context);
     }
 
     @Override

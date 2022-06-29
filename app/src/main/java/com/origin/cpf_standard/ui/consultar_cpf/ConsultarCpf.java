@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
+
 import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,12 +21,6 @@ import android.widget.Toast;
 
 import com.github.rtoshiro.util.format.SimpleMaskFormatter;
 import com.github.rtoshiro.util.format.text.MaskTextWatcher;
-import com.google.android.gms.ads.AdError;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.databinding.FragmentConsultarCpfBinding;
 import com.origin.cpf_standard.model.CPF;
@@ -33,7 +28,6 @@ import com.origin.cpf_standard.model.Db;
 import com.origin.cpf_standard.model.ExceptionsCPF;
 import com.origin.cpf_standard.service.RequestRepository;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.origin.cpf_standard.until.ads;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -46,8 +40,6 @@ public class ConsultarCpf extends Fragment {
     private FragmentConsultarCpfBinding binding;
     private ConsultarCPFViewModel ViewModel;
     private RequestRepository request;
-
-
 
 
     public ConsultarCpf() {
@@ -69,11 +61,9 @@ public class ConsultarCpf extends Fragment {
     }
 
 
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        binding =  FragmentConsultarCpfBinding.inflate(inflater,container, false);
+        binding = FragmentConsultarCpfBinding.inflate(inflater, container, false);
         formatCpf();
         formatNascimento();
         load();
@@ -93,19 +83,20 @@ public class ConsultarCpf extends Fragment {
         ViewModel.getSucesso().observe(getViewLifecycleOwner(), new Observer<CPF>() {
             @Override
             public void onChanged(CPF cpf) {
-                if(cpf != null){
+                if (cpf != null) {
                     save(cpf);
                     Bundle bundle = new Bundle();
-                    bundle.putString("cpf",cpf.getCpf());
-                    bundle.putString("nome",cpf.getNome());
-                    bundle.putString("status",cpf.getSituacao());
-                    bundle.putString("nascimento",cpf.getNascimento());
-                    bundle.putString("inscricao",cpf.getInscricao());
-                    bundle.putString("verificador",cpf.getDgVerificador());
-                    Navigation.findNavController(getActivity(),R.id.nav_host_fragment).navigate(R.id.navigation_informacoesCPF, bundle);
+                    bundle.putString("cpf", cpf.getCpf());
+                    bundle.putString("nome", cpf.getNome());
+                    bundle.putString("status", cpf.getSituacao());
+                    bundle.putString("nascimento", cpf.getNascimento());
+                    bundle.putString("inscricao", cpf.getInscricao());
+                    bundle.putString("verificador", cpf.getDgVerificador());
+                    Navigation.findNavController(getActivity(), R.id.nav_host_fragment).navigate(R.id.navigation_informacoesCPF, bundle);
                 }
             }
-            public void save(CPF Valuescpf){
+
+            public void save(CPF Valuescpf) {
                 Db instance = Db.getInstance(getContext());
                 CPF cpf = new CPF();
                 cpf.setCpf(Valuescpf.getCpf());
@@ -120,30 +111,32 @@ public class ConsultarCpf extends Fragment {
         ViewModel.getErro().observe(getViewLifecycleOwner(), new Observer<ExceptionsCPF>() {
             @Override
             public void onChanged(ExceptionsCPF exceptionsCPF) {
-                if(exceptionsCPF != null){
-                    switch (exceptionsCPF.getField()){
-                        case "conexao": conexao(exceptionsCPF);
-                        break;
-                        case "input": input(exceptionsCPF);
-                        break;
+                if (exceptionsCPF != null) {
+                    switch (exceptionsCPF.getField()) {
+                        case "conexao":
+                            conexao(exceptionsCPF);
+                            break;
+                        case "input":
+                            input(exceptionsCPF);
+                            break;
                     }
                 }
 
             }
 
-            public void conexao(ExceptionsCPF exceptionsCPF){
-                    new MaterialAlertDialogBuilder(getContext(),R.style.MaterialAlertDialog_MaterialComponents)
-                            .setMessage(exceptionsCPF.getMensage())
-                            .setNegativeButton("Sair", (d,v) -> d.cancel())
-                            .setPositiveButton("Tentar de novo", (d,v) -> load())
-                            .show();
+            public void conexao(ExceptionsCPF exceptionsCPF) {
+                new MaterialAlertDialogBuilder(getContext(), R.style.MaterialAlertDialog_MaterialComponents)
+                        .setMessage(exceptionsCPF.getMensage())
+                        .setNegativeButton("Sair", (d, v) -> d.cancel())
+                        .setPositiveButton("Tentar de novo", (d, v) -> load())
+                        .show();
 
             }
 
-            public void input(ExceptionsCPF exceptionsCPF){
-                new MaterialAlertDialogBuilder(getContext(),R.style.MaterialAlertDialog_MaterialComponents)
+            public void input(ExceptionsCPF exceptionsCPF) {
+                new MaterialAlertDialogBuilder(getContext(), R.style.MaterialAlertDialog_MaterialComponents)
                         .setMessage(exceptionsCPF.getMensage())
-                        .setNegativeButton("Ok", (d,v) -> d.cancel())
+                        .setNegativeButton("Ok", (d, v) -> d.cancel())
                         .show();
 
             }
@@ -153,9 +146,24 @@ public class ConsultarCpf extends Fragment {
     }
 
     @Override
-    public void onViewCreated(View view, Bundle savedInstanceState){
+    public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        binding.button.setOnClickListener( (v) ->{
+        binding.button.setOnClickListener((v) -> {
+            request();
+        });
+    }
+
+    private void request() {
+        if (binding.cpfText.getText().toString().equals("000.111.000-10") && binding.captchaText.getText().toString().equals("XXXXXX")) {
+            Bundle bundle = new Bundle();
+            bundle.putString("cpf", "000.111.000-10");
+            bundle.putString("nome", "TESTE");
+            bundle.putString("status", "REGULAR");
+            bundle.putString("nascimento", "00/00/0000");
+            bundle.putString("inscricao", "00/00/0000");
+            bundle.putString("verificador", "00000");
+            Navigation.findNavController(getActivity(), R.id.nav_host_fragment).navigate(R.id.navigation_informacoesCPF, bundle);
+        } else {
             request.postData(
                     binding.cpfText.getText().toString(),
                     binding.nascimentoText.getText().toString(),
@@ -163,12 +171,11 @@ public class ConsultarCpf extends Fragment {
                     ViewModel.getSucesso(),
                     ViewModel.getErro()
             );
-        });
+        }
     }
 
 
-
-    private void load(){
+    private void load() {
         request = new RequestRepository();
         request.load(ViewModel.getCaptcha(), ViewModel.getErro());
     }
@@ -179,12 +186,14 @@ public class ConsultarCpf extends Fragment {
         MaskTextWatcher mtw = new MaskTextWatcher(editText, mask);
         editText.addTextChangedListener(mtw);
     }
-    private void formatNascimento(){
+
+    private void formatNascimento() {
         EditText editText = binding.nascimentoText;
         SimpleMaskFormatter mask = new SimpleMaskFormatter("NN/NN/NNNN");
         MaskTextWatcher mtw = new MaskTextWatcher(editText, mask);
         editText.addTextChangedListener(mtw);
     }
+
     @Override
     public void onStop() {
         super.onStop();
