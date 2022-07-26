@@ -3582,6 +3582,7 @@ id action_share
 id action_text
 id actions
 id activity_chooser_view_content
+id adViewF
 id ad_control_button
 id ad_controls_view
 id ad_presenter_view
@@ -3590,6 +3591,7 @@ id adaptive
 id add
 id adjust_height
 id adjust_width
+id ads_fragment_container
 id adtune_background_view
 id adtune_content_container
 id adtune_drag_view_container
@@ -4690,6 +4692,7 @@ layout exo_styled_settings_list
 layout exo_styled_settings_list_item
 layout exo_styled_sub_settings_list_item
 layout exo_track_selection_dialog
+layout fragment_ads
 layout fragment_boa_vista
 layout fragment_boa_vista_consultar
 layout fragment_consultar_c_n_p_j
@@ -4985,7 +4988,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string applovin_list_item_image_description
 string appodeal_token
-string banner_ad_unit_id_intersticial
+string banner_ad_unit_id
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string buscar
@@ -5116,6 +5119,7 @@ string icon_content_description
 string in_progress
 string indeterminate
 string instrucao
+string intersticial_ad_unit_id
 string item_view_role_description
 string label
 string m3_ref_typeface_brand_medium

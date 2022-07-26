@@ -55,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/c185ea3479a34a4b131f51d8d0a1c0ea/transformed/navigation-ui-2.4.2/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,162",
-                        "endColumns": "106,122",
-                        "endOffsets": "157,280"
-                    },
-                    "to": {
-                        "startLines": "180,181",
-                        "startColumns": "4,4",
-                        "startOffsets": "14371,14478",
-                        "endColumns": "106,122",
-                        "endOffsets": "14473,14596"
-                    }
-                },
-                {
-                    "source": "/home/micos/.gradle/caches/transforms-3/a1c248131f5c86b6cd66380c9cc0ba14/transformed/jetified-exoplayer-ui-2.17.1/res/values-sr/values-sr.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/1c597e32bfb697fac349d471927c68ed/transformed/jetified-exoplayer-ui-2.17.1/res/values-sr/values-sr.xml",
                     "from": {
                         "startLines": "2,11,16,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -88,6 +71,23 @@
                         "endLines": "10,15,20,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129",
                         "endColumns": "17,12,12,80,81,81,88,90,69,65,92,93,67,63,62,71,74,83,76,75,86,72,70,95,93,66,64,52,57,47,60,65,63,62,64,63,60,65,64,65,51,61,75,75,55",
                         "endOffsets": "332,601,862,6795,6877,6959,7048,7139,7209,7275,7368,7462,7530,7594,7657,7729,7804,7888,7965,8041,8128,8201,8272,8368,8462,8529,8594,9311,9369,9417,9478,9544,9608,9671,9736,9800,9861,9927,9992,10058,10110,10172,10248,10324,10380"
+                    }
+                },
+                {
+                    "source": "/home/micos/.gradle/caches/transforms-3/c185ea3479a34a4b131f51d8d0a1c0ea/transformed/navigation-ui-2.4.2/res/values-sr/values-sr.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,162",
+                        "endColumns": "106,122",
+                        "endOffsets": "157,280"
+                    },
+                    "to": {
+                        "startLines": "180,181",
+                        "startColumns": "4,4",
+                        "startOffsets": "14371,14478",
+                        "endColumns": "106,122",
+                        "endOffsets": "14473,14596"
                     }
                 },
                 {

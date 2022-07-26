@@ -4,6 +4,25 @@
             "outputFile": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
+                    "source": "/home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,253,453,661",
+                        "endLines": "4,7,10,16",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "248,448,656,1130"
+                    },
+                    "to": {
+                        "startLines": "584,587,590,593",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "40451,40649,40849,41057",
+                        "endLines": "586,589,592,598",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "40644,40844,41052,41526"
+                    }
+                },
+                {
                     "source": "/home/micos/.gradle/caches/transforms-3/53205efc2464613001ec383a10ebd674/transformed/material-1.6.0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,24,27,30,33,36,39,42,45,48,49,52,57,68,74,84,94,104,114,124,134,144,154,164,174,184,194,204,214,224,230,236,242,248,252,256,257,258,259,263,266,269,272,275,278,281,285,289",
@@ -20,25 +39,6 @@
                         "endLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,81,82,83,84,86,89,92,95,190,193,196,199,205,208,273,276,281,297,303,367,377,387,397,407,417,427,437,447,457,467,477,487,497,507,513,519,525,531,535,539,540,541,542,546,549,552,555,558,569,572,576,580,583",
                         "endColumns": "97,95,95,97,67,78,87,87,87,87,86,86,86,86,92,106,104,118,124,10,10,10,10,10,10,10,10,10,115,10,12,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,137,143,155,10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "325,421,517,615,683,762,850,938,1026,1114,1201,1288,1375,1462,7117,7224,7329,7448,7676,7889,8148,8419,14979,15211,15447,15697,16109,16340,21012,21182,21503,22819,23276,27340,27897,28455,29018,29572,30125,30679,31234,31785,32340,32898,33455,34003,34559,35116,35458,35802,36152,36502,36831,37172,37310,37454,37610,38003,38221,38443,38669,38885,39579,39769,40010,40269,40446"
-                    }
-                },
-                {
-                    "source": "/home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,8,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,534,788",
-                        "endLines": "7,10,15",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "529,783,1176"
-                    },
-                    "to": {
-                        "startLines": "599,605,608",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "41531,42010,42264",
-                        "endLines": "604,607,612",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "42005,42259,42652"
                     }
                 },
                 {
@@ -61,6 +61,25 @@
                     }
                 },
                 {
+                    "source": "/home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,8,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,534,788",
+                        "endLines": "7,10,15",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "529,783,1176"
+                    },
+                    "to": {
+                        "startLines": "599,605,608",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "41531,42010,42264",
+                        "endLines": "604,607,612",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "42005,42259,42652"
+                    }
+                },
+                {
                     "source": "/home/micos/.gradle/caches/transforms-3/919b1e91a07ddbf34272a620f8cba519/transformed/core-1.7.0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -80,26 +99,7 @@
                     }
                 },
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,253,453,661",
-                        "endLines": "4,7,10,16",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "248,448,656,1130"
-                    },
-                    "to": {
-                        "startLines": "584,587,590,593",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "40451,40649,40849,41057",
-                        "endLines": "586,589,592,598",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "40644,40844,41052,41526"
-                    }
-                },
-                {
-                    "source": "/home/micos/.gradle/caches/transforms-3/a1c248131f5c86b6cd66380c9cc0ba14/transformed/jetified-exoplayer-ui-2.17.1/res/values-v21/values-v21.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/1c597e32bfb697fac349d471927c68ed/transformed/jetified-exoplayer-ui-2.17.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

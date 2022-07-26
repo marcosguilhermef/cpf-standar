@@ -33,7 +33,7 @@ public class HistoricoConsultaCpf extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        //getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
         binding = FragmentHistoricoConsultaCpfBinding.inflate(inflater, container, false);
         viewModel = new ViewModelProvider(this, new ViewModelObjectFactory(getContext())).get(HistoricoConsultaViewModel.class);

@@ -4,7 +4,17 @@
             "outputFile": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/res/values-land/values-land.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/7e32ef418ae6b3124e525b70bee8d701/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "32",
                         "endColumns": "12",
                         "endOffsets": "2090"
-                    }
-                },
-                {
-                    "source": "/home/micos/.gradle/caches/transforms-3/7e32ef418ae6b3124e525b70bee8d701/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 },
                 {

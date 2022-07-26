@@ -13,14 +13,15 @@ import android.view.ViewGroup;
 
 import com.appodeal.ads.Appodeal;
 import com.appodeal.ads.InterstitialCallbacks;
-/*import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;*/
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.origin.cpf_standard.R;
 import com.origin.cpf_standard.databinding.FragmentInformacoesCPFBinding;
+import com.origin.cpf_standard.ui.adsFragment;
 
 import java.util.Objects;
 
@@ -28,9 +29,8 @@ public class InformacoesCPF extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-/*
+
     private InterstitialAd mInterstitialAd;
-*/
     private static int counterClick = 0;
     private final static int PARSER = 1;
     private ActionBar actionBar;
@@ -58,7 +58,6 @@ public class InformacoesCPF extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Appodeal.initialize(getActivity(), getString(R.string.appodeal_token), Appodeal.INTERSTITIAL);
         if (getArguments() != null) {
             Pcpf = getArguments().getString(cpf);
             Pnome = getArguments().getString(nome);
@@ -72,8 +71,9 @@ public class InformacoesCPF extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding =  FragmentInformacoesCPFBinding.inflate(inflater,container, false);
-        //initADS();
-        initAppOdeal();
+        adsFragment.destroy();
+        initADS();
+        //initAppOdeal();
 
         binding.cpfField.setText(Pcpf);
         binding.nascimentoField.setText(Pnascimento);
@@ -105,12 +105,13 @@ public class InformacoesCPF extends Fragment {
         return newName;
     }
 
-    /*private void initADS(){
+    private void initADS(){
+        fullscreeam();
         AdRequest adRequest = new AdRequest.Builder().build();
 
         if(mInterstitialAd != null || (counterClick % PARSER == 0) ){
             fullscreeam();
-            InterstitialAd.load(getContext(), getString(R.string.banner_ad_unit_id_intersticial), adRequest, interticialCallBack());
+            InterstitialAd.load(getContext(), getString(R.string.intersticial_ad_unit_id), adRequest, interticialCallBack());
             count();
         }else{
             binding.progressCircular.setVisibility(View.GONE);
@@ -121,21 +122,13 @@ public class InformacoesCPF extends Fragment {
         counterClick++;
     }
 
-    private void fullscreeam(){
-        ((AppCompatActivity) Objects.requireNonNull(getActivity())).getSupportActionBar().hide();
-
-    }
-
-    private void showscream(){
-        ((AppCompatActivity) Objects.requireNonNull(getActivity())).getSupportActionBar().show();
-
-    }
     private InterstitialAdLoadCallback interticialCallBack(){
         return new InterstitialAdLoadCallback(){
             public void onAdFailedToLoad( LoadAdError loadAdError) {
                 binding.progressCircular.setVisibility(View.GONE);
                 mInterstitialAd = null;
                 showscream();
+                hideProgressBar();
             }
 
             public void onAdLoaded(InterstitialAd interstitialAd) {
@@ -152,6 +145,7 @@ public class InformacoesCPF extends Fragment {
             public void onAdClicked() {
                 super.onAdClicked();
                 binding.progressCircular.setVisibility(View.GONE);
+                hideProgressBar();
                 showscream();
             }
 
@@ -159,6 +153,7 @@ public class InformacoesCPF extends Fragment {
             public void onAdDismissedFullScreenContent() {
                 super.onAdDismissedFullScreenContent();
                 binding.progressCircular.setVisibility(View.GONE);
+                hideProgressBar();
                 showscream();
             }
 
@@ -166,6 +161,7 @@ public class InformacoesCPF extends Fragment {
             public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                 super.onAdFailedToShowFullScreenContent(adError);
                 binding.progressCircular.setVisibility(View.GONE);
+                hideProgressBar();
                 showscream();
             }
 
@@ -181,15 +177,14 @@ public class InformacoesCPF extends Fragment {
                 showscream();
             }
         };
-    }*/
+    }
 
-    private void initAppOdeal(){
+    /*private void initAppOdeal(){
         Log.w("Appodeal", "initAppOdeal");
         fullscreeam();
 
         if(!Appodeal.isInitialized(Appodeal.INTERSTITIAL)){
             Log.w("Appodeal", "Appodeal.initialize");
-            Appodeal.initialize(getActivity(), getString(R.string.appodeal_token), Appodeal.INTERSTITIAL,false);
         }else{
             Log.w("Appodeal", "else");
             showProgressBar();
@@ -234,7 +229,7 @@ public class InformacoesCPF extends Fragment {
             }
         });
 
-    }
+    }*/
 
     private void showscream(){
         ((AppCompatActivity) requireActivity()).getSupportActionBar().show();
@@ -243,6 +238,7 @@ public class InformacoesCPF extends Fragment {
 
     private void hideProgressBar(){
         binding.progressCircular.setVisibility(View.GONE);
+        adsFragment.call();
     }
 
     private void showProgressBar(){

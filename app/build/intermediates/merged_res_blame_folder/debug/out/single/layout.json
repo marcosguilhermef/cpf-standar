@@ -36,6 +36,10 @@
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_consultar_c_n_p_j.xml"
     },
     {
+        "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_ads.xml",
+        "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_ads.xml"
+    },
+    {
         "merged": "/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_historico_consulta_cpf.xml",
         "source": "/media/micos/Novo volume/androoid/cpfstandard/app/src/main/res/layout/fragment_historico_consulta_cpf.xml"
     },

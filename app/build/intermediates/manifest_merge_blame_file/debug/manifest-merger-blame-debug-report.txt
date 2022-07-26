@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.origin.cpf_standard"
-4    android:versionCode="12"
-5    android:versionName="1.8" >
+4    android:versionCode="16"
+5    android:versionName="1.8.16" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -23,46 +23,46 @@
 14-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:9:5-79
 14-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:9:22-77
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:20:5-79
-15-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:20:22-76
+15-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:20:5-79
+15-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:20:22-76
 16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-16-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:21:5-79
-16-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:21:22-76
+16-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:21:5-79
+16-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:21:22-76
 17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-17-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:22:5-76
-17-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:22:22-73
+17-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:22:5-76
+17-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:22:22-73
 18
 19    <queries>
-19-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:24:5-40:15
+19-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:24:5-40:15
 20        <intent>
-20-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:25:9-27:18
+20-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:25:9-27:18
 21            <action android:name="android.intent.action.VIEW" />
 21-->[com.facebook.android:facebook-common:8.2.0] /home/micos/.gradle/caches/transforms-3/0d130cb8515727ce14f109393c2d6c3c/transformed/jetified-facebook-common-8.2.0/AndroidManifest.xml:40:17-69
 21-->[com.facebook.android:facebook-common:8.2.0] /home/micos/.gradle/caches/transforms-3/0d130cb8515727ce14f109393c2d6c3c/transformed/jetified-facebook-common-8.2.0/AndroidManifest.xml:40:25-66
 22        </intent>
 23        <intent>
-23-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:28:9-30:18
+23-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:28:9-30:18
 24            <action android:name="android.intent.action.SENDTO" />
-24-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:29:13-67
-24-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:29:21-64
+24-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:29:13-67
+24-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:29:21-64
 25        </intent>
 26        <intent>
-26-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:31:9-33:18
+26-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:31:9-33:18
 27            <action android:name="android.intent.action.SEND" />
-27-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:32:13-65
-27-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:32:21-62
+27-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:32:13-65
+27-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:32:21-62
 28        </intent>
 29        <intent>
-29-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:34:9-36:18
+29-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:34:9-36:18
 30            <action android:name="android.intent.action.DIAL" />
-30-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:35:13-65
-30-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:35:21-62
+30-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:35:13-65
+30-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:35:21-62
 31        </intent>
 32        <intent>
-32-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:37:9-39:18
+32-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:37:9-39:18
 33            <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE" />
-33-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:38:13-84
-33-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:38:21-81
+33-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:38:13-84
+33-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:38:21-81
 34        </intent>
 35        <!-- For browser content -->
 36        <intent>
@@ -114,8 +114,8 @@
 58-->[com.adcolony:sdk:4.8.0] /home/micos/.gradle/caches/transforms-3/70b88614a6bad26906c0c70a7a3a8b81/transformed/jetified-sdk-4.8.0/AndroidManifest.xml:19:9-56
 58-->[com.adcolony:sdk:4.8.0] /home/micos/.gradle/caches/transforms-3/70b88614a6bad26906c0c70a7a3a8b81/transformed/jetified-sdk-4.8.0/AndroidManifest.xml:19:18-53
 59        <package android:name="com.android.chrome" />
-59-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:14:9-54
-59-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:14:18-51
+59-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:14:9-54
+59-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:14:18-51
 60        <package android:name="com.facebook.katana" />
 60-->[com.facebook.android:audience-network-sdk:6.11.0] /home/micos/.gradle/caches/transforms-3/8447cf90014c2662d34305cfb701e7a0/transformed/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:12:9-55
 60-->[com.facebook.android:audience-network-sdk:6.11.0] /home/micos/.gradle/caches/transforms-3/8447cf90014c2662d34305cfb701e7a0/transformed/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:12:18-52
@@ -125,11 +125,11 @@
 63-->[com.appodeal.ads.sdk.services:firebase:3.0.0.0] /home/micos/.gradle/caches/transforms-3/c2ebb6f636fc953fa76cdca5364d9323/transformed/jetified-firebase-3.0.0.0/AndroidManifest.xml:11:5-68
 63-->[com.appodeal.ads.sdk.services:firebase:3.0.0.0] /home/micos/.gradle/caches/transforms-3/c2ebb6f636fc953fa76cdca5364d9323/transformed/jetified-firebase-3.0.0.0/AndroidManifest.xml:11:22-65
 64    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-64-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:14:5-79
-64-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:14:22-76
+64-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:14:5-79
+64-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:14:22-76
 65    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-65-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:15:5-81
-65-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:15:22-78
+65-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:15:5-81
+65-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:15:22-78
 66    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 66-->[androidx.work:work-runtime:2.7.0] /home/micos/.gradle/caches/transforms-3/7e493a7afc359b3acd576b407817934c/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
 66-->[androidx.work:work-runtime:2.7.0] /home/micos/.gradle/caches/transforms-3/7e493a7afc359b3acd576b407817934c/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
@@ -141,45 +141,45 @@
 68-->[com.google.android.gms:play-services-measurement:21.0.0] /home/micos/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
 69
 70    <uses-feature
-70-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:13:5-15:36
+70-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:13:5-15:36
 71        android:name="android.hardware.sensor.light"
-71-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:14:9-53
+71-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:14:9-53
 72        android:required="false" />
-72-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:15:9-33
+72-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:15:9-33
 73    <uses-feature
-73-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:16:5-18:36
+73-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:16:5-18:36
 74        android:name="android.hardware.sensor.compass"
-74-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:17:9-55
+74-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:17:9-55
 75        android:required="false" />
-75-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:18:9-33
+75-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:18:9-33
 76    <uses-feature
-76-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:19:5-21:36
+76-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:19:5-21:36
 77        android:name="android.hardware.sensor.gyroscope"
-77-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:20:9-57
+77-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:20:9-57
 78        android:required="false" />
-78-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:21:9-33
+78-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:21:9-33
 79    <uses-feature
-79-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:22:5-24:36
+79-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:22:5-24:36
 80        android:name="android.hardware.sensor.barometer"
-80-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:23:9-57
+80-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:23:9-57
 81        android:required="false" />
-81-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:24:9-33
+81-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:24:9-33
 82    <uses-feature
-82-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:25:5-27:36
+82-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:25:5-27:36
 83        android:name="android.hardware.sensor.proximity"
-83-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:26:9-57
+83-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:26:9-57
 84        android:required="false" />
-84-->[com.my.tracker:mytracker-sdk:3.0.6] /home/micos/.gradle/caches/transforms-3/ff5a69a24332222abd41458f671ccada/transformed/jetified-mytracker-sdk-3.0.6/AndroidManifest.xml:27:9-33
+84-->[com.my.tracker:mytracker-sdk:3.0.7] /home/micos/.gradle/caches/transforms-3/fd8bf6a8dd1ec93ad59994e1d7345f33/transformed/jetified-mytracker-sdk-3.0.7/AndroidManifest.xml:27:9-33
 85
 86    <application
-86-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:10:5-38:19
+86-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:10:5-39:19
 87        android:allowBackup="true"
 87-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:11:9-35
 88        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 88-->[androidx.core:core:1.7.0] /home/micos/.gradle/caches/transforms-3/919b1e91a07ddbf34272a620f8cba519/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 89        android:debuggable="true"
 90        android:fullBackupContent="@xml/appsflyer_backup_rules"
-90-->[com.appsflyer:af-android-sdk:6.7.0] /home/micos/.gradle/caches/transforms-3/84f5bd9d2b1a6d0ef7f2643ae13f340d/transformed/jetified-af-android-sdk-6.7.0/AndroidManifest.xml:14:18-73
+90-->[com.appsflyer:af-android-sdk:6.7.0] /home/micos/.gradle/caches/transforms-3/b6c26cf9bd5a639d6b63e5c596e3b6c9/transformed/jetified-af-android-sdk-6.7.0/AndroidManifest.xml:14:18-73
 91        android:hardwareAccelerated="true"
 91-->[com.vungle:publisher-sdk-android:6.11.0] /home/micos/.gradle/caches/transforms-3/877f386f64d0820f4969170e415836be/transformed/jetified-publisher-sdk-android-6.11.0/AndroidManifest.xml:17:9-43
 92        android:icon="@mipmap/ic_launcher"
@@ -216,20 +216,20 @@
 108-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:27:13-58
 109
 110        <activity
-110-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:29:9-37:20
+110-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:30:9-38:20
 111            android:name="com.origin.cpf_standard.MainActivity"
-111-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:30:13-41
+111-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:31:13-41
 112            android:exported="true" >
-112-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:31:13-36
+112-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:32:13-36
 113            <intent-filter>
-113-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:33:13-36:29
+113-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:34:13-37:29
 114                <action android:name="android.intent.action.MAIN" />
-114-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:34:17-69
-114-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:34:25-66
+114-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:35:17-69
+114-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:35:25-66
 115
 116                <category android:name="android.intent.category.LAUNCHER" />
-116-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:35:17-77
-116-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:35:27-74
+116-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:36:17-77
+116-->/media/micos/Novo volume/androoid/cpfstandard/app/src/main/AndroidManifest.xml:36:27-74
 117            </intent-filter>
 118        </activity>
 119        <activity
@@ -271,22 +271,22 @@
 136            </intent-filter>
 137        </activity>
 138        <activity
-138-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:43:9-46:75
+138-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:43:9-46:75
 139            android:name="com.yandex.mobile.ads.common.AdActivity"
-139-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:44:13-67
+139-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:44:13-67
 140            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-140-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:45:13-122
+140-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:45:13-122
 141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-141-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:46:13-72
+141-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:46:13-72
 142
 143        <provider
-143-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:48:9-51:40
+143-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:48:9-51:40
 144            android:name="com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider"
-144-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:49:13-94
+144-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:49:13-94
 145            android:authorities="com.origin.cpf_standard.MobileAdsInitializeProvider"
-145-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:50:13-79
+145-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:50:13-79
 146            android:exported="false" />
-146-->[com.yandex.android:mobileads:5.1.1] /home/micos/.gradle/caches/transforms-3/d3c254ffe505c25171df25beda974501/transformed/jetified-mobileads-5.1.1/AndroidManifest.xml:51:13-37
+146-->[com.yandex.android:mobileads:5.2.0] /home/micos/.gradle/caches/transforms-3/87031142d59998aeb634c236c651c619/transformed/jetified-mobileads-5.2.0/AndroidManifest.xml:51:13-37
 147
 148        <receiver
 148-->[com.appodeal.ads.sdk.services:appsflyer:3.0.0.1] /home/micos/.gradle/caches/transforms-3/f81f83d79f2233901bb225671874da77/transformed/jetified-appsflyer-3.0.0.1/AndroidManifest.xml:15:9-21:20
@@ -355,33 +355,33 @@
 181        </service>
 182
 183        <meta-data
-183-->[com.appodeal.ads.sdk.networks:admob:3.0.0.1] /home/micos/.gradle/caches/transforms-3/a3a1612358086573e9e8088c1859a6cf/transformed/jetified-admob-3.0.0.1/AndroidManifest.xml:12:9-14:36
+183-->[com.appodeal.ads.sdk.networks:admob:3.0.0.2] /home/micos/.gradle/caches/transforms-3/7f592eb4d1c0fb6dfa09d3f99dd8e9bb/transformed/jetified-admob-3.0.0.2/AndroidManifest.xml:12:9-14:36
 184            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-184-->[com.appodeal.ads.sdk.networks:admob:3.0.0.1] /home/micos/.gradle/caches/transforms-3/a3a1612358086573e9e8088c1859a6cf/transformed/jetified-admob-3.0.0.1/AndroidManifest.xml:13:13-83
+184-->[com.appodeal.ads.sdk.networks:admob:3.0.0.2] /home/micos/.gradle/caches/transforms-3/7f592eb4d1c0fb6dfa09d3f99dd8e9bb/transformed/jetified-admob-3.0.0.2/AndroidManifest.xml:13:13-83
 185            android:value="true" />
-185-->[com.appodeal.ads.sdk.networks:admob:3.0.0.1] /home/micos/.gradle/caches/transforms-3/a3a1612358086573e9e8088c1859a6cf/transformed/jetified-admob-3.0.0.1/AndroidManifest.xml:14:13-33
+185-->[com.appodeal.ads.sdk.networks:admob:3.0.0.2] /home/micos/.gradle/caches/transforms-3/7f592eb4d1c0fb6dfa09d3f99dd8e9bb/transformed/jetified-admob-3.0.0.2/AndroidManifest.xml:14:13-33
 186        <meta-data
-186-->[com.appodeal.ads.sdk.networks:admob:3.0.0.1] /home/micos/.gradle/caches/transforms-3/a3a1612358086573e9e8088c1859a6cf/transformed/jetified-admob-3.0.0.1/AndroidManifest.xml:15:9-17:36
+186-->[com.appodeal.ads.sdk.networks:admob:3.0.0.2] /home/micos/.gradle/caches/transforms-3/7f592eb4d1c0fb6dfa09d3f99dd8e9bb/transformed/jetified-admob-3.0.0.2/AndroidManifest.xml:15:9-17:36
 187            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
-187-->[com.appodeal.ads.sdk.networks:admob:3.0.0.1] /home/micos/.gradle/caches/transforms-3/a3a1612358086573e9e8088c1859a6cf/transformed/jetified-admob-3.0.0.1/AndroidManifest.xml:16:13-79
+187-->[com.appodeal.ads.sdk.networks:admob:3.0.0.2] /home/micos/.gradle/caches/transforms-3/7f592eb4d1c0fb6dfa09d3f99dd8e9bb/transformed/jetified-admob-3.0.0.2/AndroidManifest.xml:16:13-79
 188            android:value="true" />
-188-->[com.appodeal.ads.sdk.networks:admob:3.0.0.1] /home/micos/.gradle/caches/transforms-3/a3a1612358086573e9e8088c1859a6cf/transformed/jetified-admob-3.0.0.1/AndroidManifest.xml:17:13-33
+188-->[com.appodeal.ads.sdk.networks:admob:3.0.0.2] /home/micos/.gradle/caches/transforms-3/7f592eb4d1c0fb6dfa09d3f99dd8e9bb/transformed/jetified-admob-3.0.0.2/AndroidManifest.xml:17:13-33
 189
 190        <provider
-190-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.2] /home/micos/.gradle/caches/transforms-3/ad96a005ce1f0424e515ec64f755bea1/transformed/jetified-bidmachine-3.0.0.2/AndroidManifest.xml:10:9-13:40
+190-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.3] /home/micos/.gradle/caches/transforms-3/3182dcdfb5911c889a57a4a90c1e7ad3/transformed/jetified-bidmachine-3.0.0.3/AndroidManifest.xml:10:9-13:40
 191            android:name="com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider"
-191-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.2] /home/micos/.gradle/caches/transforms-3/ad96a005ce1f0424e515ec64f755bea1/transformed/jetified-bidmachine-3.0.0.2/AndroidManifest.xml:11:13-93
+191-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.3] /home/micos/.gradle/caches/transforms-3/3182dcdfb5911c889a57a4a90c1e7ad3/transformed/jetified-bidmachine-3.0.0.3/AndroidManifest.xml:11:13-93
 192            android:authorities="com.origin.cpf_standard.ApdBidMachineContentProvider"
-192-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.2] /home/micos/.gradle/caches/transforms-3/ad96a005ce1f0424e515ec64f755bea1/transformed/jetified-bidmachine-3.0.0.2/AndroidManifest.xml:12:13-80
+192-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.3] /home/micos/.gradle/caches/transforms-3/3182dcdfb5911c889a57a4a90c1e7ad3/transformed/jetified-bidmachine-3.0.0.3/AndroidManifest.xml:12:13-80
 193            android:exported="false" />
-193-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.2] /home/micos/.gradle/caches/transforms-3/ad96a005ce1f0424e515ec64f755bea1/transformed/jetified-bidmachine-3.0.0.2/AndroidManifest.xml:13:13-37
+193-->[com.appodeal.ads.sdk.networks:bidmachine:3.0.0.3] /home/micos/.gradle/caches/transforms-3/3182dcdfb5911c889a57a4a90c1e7ad3/transformed/jetified-bidmachine-3.0.0.3/AndroidManifest.xml:13:13-37
 194
 195        <activity android:name="com.amazon.device.ads.DTBInterstitialActivity" />
-195-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:20:9-82
-195-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:20:19-79
+195-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:20:9-82
+195-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:20:19-79
 196        <activity android:name="com.amazon.device.ads.DTBAdActivity" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-196-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:21:9-72
-196-->[io.bidmachine:ads.networks.amazon:1.9.5.6] /home/micos/.gradle/caches/transforms-3/3bfc9fdbf5d6fea79cacc5df37f783f3/transformed/jetified-ads.networks.amazon-1.9.5.6/AndroidManifest.xml:21:19-69
+196-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:21:9-72
+196-->[io.bidmachine:ads.networks.amazon:1.9.7.6] /home/micos/.gradle/caches/transforms-3/db4e1b62a63be136f26ac9f0414c6826/transformed/jetified-ads.networks.amazon-1.9.7.6/AndroidManifest.xml:21:19-69
 197        <activity
 197-->[com.google.android.gms:play-services-ads-lite:21.0.0] /home/micos/.gradle/caches/transforms-3/afdd2635ad4113d5c372a9c66e35ef58/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:49:9-53:64
 198            android:name="com.google.android.gms.ads.AdActivity"
@@ -911,22 +911,22 @@
 481            android:process=":Metrica" /> <!-- suppress AndroidDomInspection -->
 481-->[com.yandex.android:mobmetricalib:5.0.0] /home/micos/.gradle/caches/transforms-3/2737e1c0b5e9451e84f9b75164b2a84e/transformed/jetified-mobmetricalib-5.0.0/AndroidManifest.xml:74:13-39
 482        <activity
-482-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:20:9-22:125
+482-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:20:9-22:125
 483            android:name="com.my.target.common.MyTargetActivity"
-483-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:21:13-65
+483-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:21:13-65
 484            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-484-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:22:13-122
+484-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:22:13-122
 485
 486        <provider
-486-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:24:9-28:40
+486-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:24:9-28:40
 487            android:name="com.my.target.common.MyTargetContentProvider"
-487-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:25:13-72
+487-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:25:13-72
 488            android:authorities="com.origin.cpf_standard.mytargetcontentprovider"
-488-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:26:13-75
+488-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:26:13-75
 489            android:enabled="true"
-489-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:27:13-35
+489-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:27:13-35
 490            android:exported="false" />
-490-->[com.my.target:mytarget-sdk:5.15.2] /home/micos/.gradle/caches/transforms-3/f1fb8ca015dbb2c0e422999f5c439907/transformed/jetified-mytarget-sdk-5.15.2/AndroidManifest.xml:28:13-37
+490-->[com.my.target:mytarget-sdk:5.15.3] /home/micos/.gradle/caches/transforms-3/e3a80ae3512499eec2f36588f8d3a699/transformed/jetified-mytarget-sdk-5.15.3/AndroidManifest.xml:28:13-37
 491
 492        <activity
 492-->[com.google.android.gms:play-services-base:18.0.1] /home/micos/.gradle/caches/transforms-3/43a61542070d926941f931fa65baa73e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
@@ -956,102 +956,102 @@
 505            android:exported="false" />
 505-->[com.facebook.android:audience-network-sdk:6.11.0] /home/micos/.gradle/caches/transforms-3/8447cf90014c2662d34305cfb701e7a0/transformed/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:28:13-37
 506        <provider
-506-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:18:9-23:39
+506-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:18:9-23:39
 507            android:name="com.applovin.sdk.AppLovinInitProvider"
-507-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:19:13-65
+507-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:19:13-65
 508            android:authorities="com.origin.cpf_standard.applovincontentprovider"
-508-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:20:13-75
+508-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:20:13-75
 509            android:exported="false"
-509-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:21:13-37
+509-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:21:13-37
 510            android:grantUriPermissions="true"
-510-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:22:13-47
+510-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:22:13-47
 511            android:initOrder="101" /> <!-- Init order is 101 so we're before Firebase/Google which uses 100 -->
-511-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:23:13-36
+511-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:23:13-36
 512        <activity
-512-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:25:9-31:50
+512-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:25:9-31:50
 513            android:name="com.applovin.adview.AppLovinFullscreenActivity"
-513-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:26:13-74
+513-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:26:13-74
 514            android:configChanges="keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-514-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:27:13-129
+514-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:27:13-129
 515            android:exported="false"
-515-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:28:13-37
+515-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:28:13-37
 516            android:hardwareAccelerated="true"
-516-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:29:13-47
+516-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:29:13-47
 517            android:launchMode="singleTop"
-517-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:30:13-43
+517-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:30:13-43
 518            android:screenOrientation="behind" />
-518-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:31:13-47
+518-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:31:13-47
 519        <activity
-519-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:32:9-34:84
+519-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:32:9-34:84
 520            android:name="com.applovin.sdk.AppLovinWebViewActivity"
-520-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:33:13-68
+520-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:33:13-68
 521            android:configChanges="keyboardHidden|orientation|screenSize|uiMode" />
-521-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:34:13-81
+521-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:34:13-81
 522        <activity
-522-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:35:9-38:87
+522-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:35:9-38:87
 523            android:name="com.applovin.mediation.MaxDebuggerActivity"
-523-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:36:13-70
+523-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:36:13-70
 524            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
-524-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:37:13-81
+524-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:37:13-81
 525            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-525-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:38:13-84
+525-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:38:13-84
 526        <activity
-526-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:39:9-42:87
+526-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:39:9-42:87
 527            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
-527-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:40:13-76
+527-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:40:13-76
 528            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
-528-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:41:13-81
+528-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:41:13-81
 529            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-529-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:42:13-84
+529-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:42:13-84
 530        <activity
-530-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:43:9-46:87
+530-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:43:9-46:87
 531            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
-531-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:44:13-77
+531-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:44:13-77
 532            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
-532-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:45:13-81
+532-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:45:13-81
 533            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-533-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:46:13-84
+533-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:46:13-84
 534        <activity
-534-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:47:9-50:87
+534-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:47:9-50:87
 535            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
-535-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:48:13-81
+535-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:48:13-81
 536            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
-536-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:49:13-81
+536-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:49:13-81
 537            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-537-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:50:13-84
+537-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:50:13-84
 538        <activity
-538-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:51:9-54:87
+538-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:51:9-54:87
 539            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
-539-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:52:13-82
+539-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:52:13-82
 540            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
-540-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:53:13-81
+540-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:53:13-81
 541            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-541-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:54:13-84
+541-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:54:13-84
 542        <activity
-542-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:55:9-58:87
+542-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:55:9-58:87
 543            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
-543-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:56:13-85
+543-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:56:13-85
 544            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
-544-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:57:13-81
+544-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:57:13-81
 545            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-545-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:58:13-84
+545-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:58:13-84
 546
 547        <service
-547-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:60:9-63:44
+547-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:60:9-63:44
 548            android:name="com.applovin.impl.sdk.utils.AppKilledService"
-548-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:61:13-72
+548-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:61:13-72
 549            android:exported="false"
-549-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:62:13-37
+549-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:62:13-37
 550            android:stopWithTask="false" />
-550-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:63:13-41
+550-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:63:13-41
 551        <service
-551-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:64:9-67:44
+551-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:64:9-67:44
 552            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
-552-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:65:13-81
+552-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:65:13-81
 553            android:exported="false"
-553-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:66:13-37
+553-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:66:13-37
 554            android:stopWithTask="false" />
-554-->[com.applovin:applovin-sdk:11.4.1] /home/micos/.gradle/caches/transforms-3/c740c3f38c1e34678db822b001a75f04/transformed/jetified-applovin-sdk-11.4.1/AndroidManifest.xml:67:13-41
+554-->[com.applovin:applovin-sdk:11.4.4] /home/micos/.gradle/caches/transforms-3/133b1add650bc4d1c612d524de9fdb9b/transformed/jetified-applovin-sdk-11.4.4/AndroidManifest.xml:67:13-41
 555
 556        <meta-data
 556-->[com.google.android.gms:play-services-basement:18.0.0] /home/micos/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
@@ -1118,151 +1118,151 @@
 590            android:exported="false" /> <!-- 下面的activity和service必须注册 -->
 590-->[com.squareup.picasso:picasso:2.8] /home/micos/.gradle/caches/transforms-3/f590f842aa3d940cabe5cd5a61af98da/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
 591        <activity
-591-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:24:9-28:54
+591-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:24:9-28:54
 592            android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"
-592-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:25:13-86
+592-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:25:13-86
 593            android:configChanges="keyboardHidden|orientation|screenSize"
-593-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:26:13-74
+593-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:26:13-74
 594            android:launchMode="standard"
-594-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:27:13-42
+594-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:27:13-42
 595            android:theme="@style/tt_landing_page" />
-595-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:28:13-51
+595-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:28:13-51
 596        <activity
-596-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:29:9-33:54
+596-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:29:9-33:54
 597            android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
-597-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:30:13-94
+597-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:30:13-94
 598            android:configChanges="keyboardHidden|orientation|screenSize"
-598-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:31:13-74
+598-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:31:13-74
 599            android:launchMode="standard"
-599-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:32:13-42
+599-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:32:13-42
 600            android:theme="@style/tt_landing_page" />
-600-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:33:13-51
+600-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:33:13-51
 601        <activity
-601-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:34:9-38:54
+601-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:34:9-38:54
 602            android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"
-602-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:35:13-91
+602-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:35:13-91
 603            android:configChanges="keyboardHidden|orientation|screenSize"
-603-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:36:13-74
+603-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:36:13-74
 604            android:launchMode="standard"
-604-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:37:13-42
+604-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:37:13-42
 605            android:theme="@style/tt_landing_page" />
-605-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:38:13-51
+605-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:38:13-51
 606        <activity
-606-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:39:9-43:54
+606-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:39:9-43:54
 607            android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"
-607-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:40:13-96
+607-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:40:13-96
 608            android:configChanges="keyboardHidden|orientation|screenSize"
-608-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:41:13-74
+608-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:41:13-74
 609            android:launchMode="standard"
-609-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:42:13-42
+609-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:42:13-42
 610            android:theme="@style/tt_landing_page" />
-610-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:43:13-51
+610-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:43:13-51
 611        <activity
-611-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:44:9-48:65
+611-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:44:9-48:65
 612            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"
-612-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:45:13-86
+612-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:45:13-86
 613            android:configChanges="keyboardHidden|orientation|screenSize"
-613-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:46:13-74
+613-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:46:13-74
 614            android:launchMode="standard"
-614-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:47:13-42
+614-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:47:13-42
 615            android:theme="@style/tt_full_screen_interaction" />
-615-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:48:13-62
+615-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:48:13-62
 616        <activity
-616-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:49:9-53:65
+616-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:49:9-53:65
 617            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
-617-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:50:13-93
+617-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:50:13-93
 618            android:configChanges="keyboardHidden|orientation|screenSize"
-618-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:51:13-74
+618-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:51:13-74
 619            android:launchMode="standard"
-619-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:52:13-42
+619-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:52:13-42
 620            android:theme="@style/tt_full_screen_interaction" />
-620-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:53:13-62
+620-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:53:13-62
 621        <activity
-621-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:54:9-58:65
+621-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:54:9-58:65
 622            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"
-622-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:55:13-90
+622-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:55:13-90
 623            android:configChanges="keyboardHidden|orientation|screenSize"
-623-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:56:13-74
+623-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:56:13-74
 624            android:launchMode="standard"
-624-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:57:13-42
+624-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:57:13-42
 625            android:theme="@style/tt_full_screen_interaction" />
-625-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:58:13-62
+625-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:58:13-62
 626        <activity
-626-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:59:9-63:65
+626-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:59:9-63:65
 627            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
-627-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:60:13-97
+627-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:60:13-97
 628            android:configChanges="keyboardHidden|orientation|screenSize"
-628-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:61:13-74
+628-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:61:13-74
 629            android:launchMode="standard"
-629-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:62:13-42
+629-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:62:13-42
 630            android:theme="@style/tt_full_screen_interaction" />
-630-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:63:13-62
+630-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:63:13-62
 631        <activity
-631-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:64:9-67:75
+631-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:64:9-67:75
 632            android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
-632-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:65:13-83
+632-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:65:13-83
 633            android:launchMode="standard"
-633-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:66:13-42
+633-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:66:13-42
 634            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-634-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:67:13-72
+634-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:67:13-72
 635        <activity
-635-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:68:9-71:75
+635-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:68:9-71:75
 636            android:name="com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
-636-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:69:13-82
+636-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:69:13-82
 637            android:launchMode="standard"
-637-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:70:13-42
+637-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:70:13-42
 638            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-638-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:71:13-72
+638-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:71:13-72
 639
 640        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />
-640-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:73:9-95
-640-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:73:18-92
+640-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:73:9-95
+640-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:73:18-92
 641
 642        <activity android:name="com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity" />
-642-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:75:9-101
-642-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/6429c4118ddb9f385f777a963b4e68ca/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:75:19-98
+642-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:75:9-101
+642-->[com.pangle.global:ads-sdk:4.2.5.2] /home/micos/.gradle/caches/transforms-3/2366acd8380bbb6296f8babc05c2d2d5/transformed/jetified-ads-sdk-4.2.5.2/AndroidManifest.xml:75:19-98
 643        <activity
-643-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:15:9-18:50
+643-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:15:9-18:50
 644            android:name="com.ironsource.sdk.controller.ControllerActivity"
-644-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:16:13-76
+644-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:16:13-76
 645            android:configChanges="orientation|screenSize"
-645-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:17:13-59
+645-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:17:13-59
 646            android:hardwareAccelerated="true" />
-646-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:18:13-47
+646-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:18:13-47
 647        <activity
-647-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:19:9-23:64
+647-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:19:9-23:64
 648            android:name="com.ironsource.sdk.controller.InterstitialActivity"
-648-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:20:13-78
+648-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:20:13-78
 649            android:configChanges="orientation|screenSize"
-649-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:21:13-59
+649-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:21:13-59
 650            android:hardwareAccelerated="true"
-650-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:22:13-47
+650-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:22:13-47
 651            android:theme="@android:style/Theme.Translucent" />
-651-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:23:13-61
+651-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:23:13-61
 652        <activity
-652-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:24:9-28:64
+652-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:24:9-28:64
 653            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
-653-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:25:13-73
+653-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:25:13-73
 654            android:configChanges="orientation|screenSize"
-654-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:26:13-59
+654-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:26:13-59
 655            android:hardwareAccelerated="true"
-655-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:27:13-47
+655-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:27:13-47
 656            android:theme="@android:style/Theme.Translucent" />
-656-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:28:13-61
+656-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:28:13-61
 657
 658        <provider
-658-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:30:9-32:82
+658-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:30:9-32:82
 659            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
-659-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:31:13-80
+659-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:31:13-80
 660            android:authorities="com.origin.cpf_standard.IronsourceLifecycleProvider" />
-660-->[com.ironsource.sdk:mediationsdk:7.2.2.1] /home/micos/.gradle/caches/transforms-3/48f0fb04826c756e35770f5b0a54c5a9/transformed/jetified-mediationsdk-7.2.2.1/AndroidManifest.xml:32:13-79
+660-->[com.ironsource.sdk:mediationsdk:7.2.3.1] /home/micos/.gradle/caches/transforms-3/0a61297c2a316d8616a45cf266d3f8e2/transformed/jetified-mediationsdk-7.2.3.1/AndroidManifest.xml:32:13-79
 661
 662        <activity
-662-->[io.bidmachine:ads:1.9.5] /home/micos/.gradle/caches/transforms-3/9f5e3b38107b24ba9c6a7c8fa6b51af0/transformed/jetified-ads-1.9.5/AndroidManifest.xml:16:9-18:80
+662-->[io.bidmachine:ads:1.9.7] /home/micos/.gradle/caches/transforms-3/026ebfa79aced6f800e180cb89fb6455/transformed/jetified-ads-1.9.7/AndroidManifest.xml:16:9-18:80
 663            android:name="io.bidmachine.nativead.view.VideoPlayerActivity"
-663-->[io.bidmachine:ads:1.9.5] /home/micos/.gradle/caches/transforms-3/9f5e3b38107b24ba9c6a7c8fa6b51af0/transformed/jetified-ads-1.9.5/AndroidManifest.xml:17:13-75
+663-->[io.bidmachine:ads:1.9.7] /home/micos/.gradle/caches/transforms-3/026ebfa79aced6f800e180cb89fb6455/transformed/jetified-ads-1.9.7/AndroidManifest.xml:17:13-75
 664            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
-664-->[io.bidmachine:ads:1.9.5] /home/micos/.gradle/caches/transforms-3/9f5e3b38107b24ba9c6a7c8fa6b51af0/transformed/jetified-ads-1.9.5/AndroidManifest.xml:18:13-77
+664-->[io.bidmachine:ads:1.9.7] /home/micos/.gradle/caches/transforms-3/026ebfa79aced6f800e180cb89fb6455/transformed/jetified-ads-1.9.7/AndroidManifest.xml:18:13-77
 665        <activity
 665-->[com.explorestack:iab:0.9.8] /home/micos/.gradle/caches/transforms-3/d76393e07f8f9fd770d6a4ab6edeaeda/transformed/jetified-iab-0.9.8/AndroidManifest.xml:12:9-15:74
 666            android:name="com.explorestack.iab.mraid.MraidActivity"

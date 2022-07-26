@@ -4,7 +4,7 @@ package com.origin.cpf_standard.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -16,7 +16,7 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final FragmentBoaVistaBinding consultarBoaVista;
@@ -30,7 +30,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final ConsultarScoreSerasaBinding consultarScoreSerasa;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView,
+  private FragmentHomeBinding(@NonNull ScrollView rootView,
       @NonNull FragmentBoaVistaBinding consultarBoaVista, @NonNull ConsultarCpfBinding consultarCpf,
       @NonNull ConsultarHistoricoBinding consultarHistorico,
       @NonNull ConsultarScoreSerasaBinding consultarScoreSerasa) {
@@ -43,7 +43,7 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -96,7 +96,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
       ConsultarScoreSerasaBinding binding_consultarScoreSerasa = ConsultarScoreSerasaBinding.bind(consultarScoreSerasa);
 
-      return new FragmentHomeBinding((FrameLayout) rootView, binding_consultarBoaVista,
+      return new FragmentHomeBinding((ScrollView) rootView, binding_consultarBoaVista,
           binding_consultarCpf, binding_consultarHistorico, binding_consultarScoreSerasa);
     }
     String missingId = rootView.getResources().getResourceName(id);
