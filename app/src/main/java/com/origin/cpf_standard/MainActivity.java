@@ -8,7 +8,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.appodeal.ads.Appodeal;
+//import com.appodeal.ads.Appodeal;
 import com.origin.cpf_standard.databinding.ActivityMainBinding;
 import android.os.Bundle;
 import com.facebook.FacebookSdk;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
-        Appodeal.initialize(this, getString(R.string.appodeal_token), Appodeal.INTERSTITIAL);
+        //Appodeal.initialize(this, getString(R.string.appodeal_token), Appodeal.INTERSTITIAL);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
 

@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class FragmentFormularioConsultarScoreSerasaBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final Button botao1;
@@ -35,7 +35,7 @@ public final class FragmentFormularioConsultarScoreSerasaBinding implements View
   @NonNull
   public final TextView titulo;
 
-  private FragmentFormularioConsultarScoreSerasaBinding(@NonNull FrameLayout rootView,
+  private FragmentFormularioConsultarScoreSerasaBinding(@NonNull ScrollView rootView,
       @NonNull Button botao1, @NonNull Button botao2, @NonNull TextView instrucao,
       @NonNull TextView instrucao2, @NonNull TextView titulo) {
     this.rootView = rootView;
@@ -48,7 +48,7 @@ public final class FragmentFormularioConsultarScoreSerasaBinding implements View
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -104,7 +104,7 @@ public final class FragmentFormularioConsultarScoreSerasaBinding implements View
         break missingId;
       }
 
-      return new FragmentFormularioConsultarScoreSerasaBinding((FrameLayout) rootView, botao1,
+      return new FragmentFormularioConsultarScoreSerasaBinding((ScrollView) rootView, botao1,
           botao2, instrucao, instrucao2, titulo);
     }
     String missingId = rootView.getResources().getResourceName(id);

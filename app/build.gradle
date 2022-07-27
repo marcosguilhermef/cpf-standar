@@ -12,7 +12,7 @@ android {
         applicationId "com.origin.cpf_standard"
         minSdk 21
         targetSdk 32
-        versionCode 16
+        versionCode 17
         versionName "1.8."+versionCode
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -81,7 +81,7 @@ dependencies {
     implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
 
     /*app odeal*/
-    implementation 'com.appodeal.ads:sdk:3.0.0.+'
+    //implementation 'com.appodeal.ads:sdk:3.0.0.+'
 
 
 

@@ -1,13 +1,4 @@
-#Tue Jul 26 16:36:01 BRT 2022
-path.3=classes4.dex
-path.2=classes3.dex
-path.1=classes2.dex
-path.0=classes.dex
-base.3=/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/dex/debug/minifyDebugWithR8/classes4.dex
-base.2=/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/dex/debug/minifyDebugWithR8/classes3.dex
-base.1=/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/dex/debug/minifyDebugWithR8/classes2.dex
+#Wed Jul 27 06:25:29 BRT 2022
 base.0=/media/micos/Novo volume/androoid/cpfstandard/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
+path.0=classes.dex

@@ -11,8 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.appodeal.ads.Appodeal;
-import com.appodeal.ads.InterstitialCallbacks;
+//import com.appodeal.ads.Appodeal;
+//import com.appodeal.ads.InterstitialCallbacks;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;

@@ -33,7 +33,7 @@
                     }
                 },
                 {
-                    "source": "/home/micos/.gradle/caches/transforms-3/28ba61a7b7ddcd45adaeac38ae645c4c/transformed/media-1.4.3/res/values-v24/values-v24.xml",
+                    "source": "/home/micos/.gradle/caches/transforms-3/6baf5fc9b880c6513445d8fe1e652e89/transformed/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

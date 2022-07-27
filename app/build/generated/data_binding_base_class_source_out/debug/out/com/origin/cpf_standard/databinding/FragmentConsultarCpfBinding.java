@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,7 +20,7 @@ import java.lang.String;
 
 public final class FragmentConsultarCpfBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final TextInputLayout CPF;
@@ -46,7 +46,7 @@ public final class FragmentConsultarCpfBinding implements ViewBinding {
   @NonNull
   public final EditText nascimentoText;
 
-  private FragmentConsultarCpfBinding(@NonNull FrameLayout rootView, @NonNull TextInputLayout CPF,
+  private FragmentConsultarCpfBinding(@NonNull ScrollView rootView, @NonNull TextInputLayout CPF,
       @NonNull Button button, @NonNull TextInputLayout captcha, @NonNull ImageView captchaImage,
       @NonNull EditText captchaText, @NonNull EditText cpfText, @NonNull TextInputLayout nascimento,
       @NonNull EditText nascimentoText) {
@@ -63,7 +63,7 @@ public final class FragmentConsultarCpfBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -136,7 +136,7 @@ public final class FragmentConsultarCpfBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentConsultarCpfBinding((FrameLayout) rootView, CPF, button, captcha,
+      return new FragmentConsultarCpfBinding((ScrollView) rootView, CPF, button, captcha,
           captchaImage, captchaText, cpfText, nascimento, nascimentoText);
     }
     String missingId = rootView.getResources().getResourceName(id);

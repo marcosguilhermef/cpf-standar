@@ -53,8 +53,8 @@ com/origin/cpf_standard/ui/consultar_cpf/ConsultarCPFViewModel.java
  com.origin.cpf_standard.ui.consultar_cpf.ConsultarCPFViewModel
 com/origin/cpf_standard/MainActivity.java
  com.origin.cpf_standard.MainActivity
-com/origin/cpf_standard/databinding/FragmentInformacoesCPFBinding.java
- com.origin.cpf_standard.databinding.FragmentInformacoesCPFBinding
+com/origin/cpf_standard/ui/historico_consultar_cpf/HistoricoConsultaViewModel.java
+ com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaViewModel
 com/origin/cpf_standard/databinding/FragmentFormularioConsultarScoreSerasaBinding.java
  com.origin.cpf_standard.databinding.FragmentFormularioConsultarScoreSerasaBinding
 com/origin/cpf_standard/Splash.java
@@ -78,15 +78,15 @@ com/origin/cpf_standard/databinding/FragmentHomeBinding.java
  com.origin.cpf_standard.databinding.FragmentHomeBinding
 com/origin/cpf_standard/model/CPF.java
  com.origin.cpf_standard.model.CPF
-com/origin/cpf_standard/ui/InformacoesCPF/InformacoesCPF.java
- com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF
- com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF$1
- com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF$2
+com/origin/cpf_standard/databinding/ConsultarScoreSerasaBinding.java
+ com.origin.cpf_standard.databinding.ConsultarScoreSerasaBinding
 com/origin/cpf_standard/ui/historico_consultar_cpf/ViewModelObjectFactory.java
  com.origin.cpf_standard.ui.historico_consultar_cpf.ViewModelObjectFactory
 com/origin/cpf_standard/databinding/FragmentAdsBinding.java
  com.origin.cpf_standard.databinding.FragmentAdsBinding
-com/origin/cpf_standard/ui/historico_consultar_cpf/HistoricoConsultaViewModel.java
- com.origin.cpf_standard.ui.historico_consultar_cpf.HistoricoConsultaViewModel
-com/origin/cpf_standard/databinding/ConsultarScoreSerasaBinding.java
- com.origin.cpf_standard.databinding.ConsultarScoreSerasaBinding
+com/origin/cpf_standard/ui/InformacoesCPF/InformacoesCPF.java
+ com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF
+ com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF$1
+ com.origin.cpf_standard.ui.InformacoesCPF.InformacoesCPF$2
+com/origin/cpf_standard/databinding/FragmentInformacoesCPFBinding.java
+ com.origin.cpf_standard.databinding.FragmentInformacoesCPFBinding

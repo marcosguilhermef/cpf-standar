@@ -39,12 +39,19 @@ public class adsFragment extends Fragment {
     public static void destroy(){
         if(ads != null){
             ads.destroy( binding.adViewF );
+            ViewGroup.LayoutParams params = binding.adViewF.getLayoutParams();
+            params.height = 0;
+            binding.adViewF.setLayoutParams(params);
+
         }
     }
 
     public static void call(){
         if(ads != null){
             ads.bannerAds(UNIT, binding.adViewF);
+            ViewGroup.LayoutParams params = binding.adViewF.getLayoutParams();
+            params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
+            binding.adViewF.setLayoutParams(params);
         }
     }
 }
