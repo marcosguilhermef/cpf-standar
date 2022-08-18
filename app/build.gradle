@@ -12,7 +12,7 @@ android {
         applicationId "com.origin.cpf_standard"
         minSdk 21
         targetSdk 32
-        versionCode 17
+        versionCode 20
         versionName "1.8."+versionCode
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -20,8 +20,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
-            shrinkResources true
+            minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.proproguard-rules.pro'
         }
         debug {
@@ -73,11 +73,10 @@ dependencies {
 
     /*admob*/
     implementation 'com.google.android.gms:play-services-ads:20.6.0'
-    //implementation 'com.unity3d.ads:unity-ads:4.1.0'
-    //implementation 'com.google.ads.mediation:unity:4.1.0.0'
-    //implementation 'com.google.ads.mediation:adcolony:4.7.1.0'
-    //implementation 'com.google.ads.mediation:facebook:6.11.0.1'
-    /*facebook*/
+    implementation 'com.unity3d.ads:unity-ads:4.2.1'
+    implementation 'com.google.ads.mediation:unity:4.2.1.1'
+    implementation 'com.google.ads.mediation:applovin:11.4.4.0'
+
     implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
 
     /*app odeal*/

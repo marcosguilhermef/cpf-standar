@@ -1,5 +1,7 @@
 package com.origin.cpf_standard.model;
 
+import android.util.Log;
+
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -103,7 +105,7 @@ public class CPF {
     }
 
     public void generateCreated_ad() {
-        SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+        SimpleDateFormat formatter= new SimpleDateFormat("dd/MM/yyyy 'as' HH:mm");
         Date date = new Date(System.currentTimeMillis());
         setCreated_ad(formatter.format(date));
     }

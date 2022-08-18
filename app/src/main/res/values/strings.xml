@@ -37,11 +37,10 @@
     <string name="verificador">Verificador</string>
     <string name="instrucao">CAPATCHA: Captcha é o código de segurança que aparece na imagem acima. Ele serve para garantir que você não seja um robô.</string>
     <string name="app_id" translatable="false">ca-app-pub-8817634033676287~5211696946</string>
-
-    <!--<string name="intersticial_ad_unit_id" translatable="false">ca-app-pub-8817634033676287/1527010873</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8817634033676287/6245242245</string>-->
-    <string name="intersticial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/8691691433</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intersticial_ad_unit_id" translatable="false">ca-app-pub-8817634033676287/1527010873</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8817634033676287/6245242245</string>
+    <!--<string name="intersticial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
 
     <string name="title_activity_splash">Splash</string>
     <string name="dummy_button">Dummy Button</string>

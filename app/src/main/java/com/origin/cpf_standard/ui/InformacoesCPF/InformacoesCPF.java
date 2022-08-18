@@ -6,6 +6,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -144,7 +146,6 @@ public class InformacoesCPF extends Fragment {
             @Override
             public void onAdClicked() {
                 super.onAdClicked();
-                binding.progressCircular.setVisibility(View.GONE);
                 hideProgressBar();
                 showscream();
             }
@@ -152,7 +153,6 @@ public class InformacoesCPF extends Fragment {
             @Override
             public void onAdDismissedFullScreenContent() {
                 super.onAdDismissedFullScreenContent();
-                binding.progressCircular.setVisibility(View.GONE);
                 hideProgressBar();
                 showscream();
             }
@@ -160,7 +160,6 @@ public class InformacoesCPF extends Fragment {
             @Override
             public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                 super.onAdFailedToShowFullScreenContent(adError);
-                binding.progressCircular.setVisibility(View.GONE);
                 hideProgressBar();
                 showscream();
             }
@@ -173,63 +172,11 @@ public class InformacoesCPF extends Fragment {
             @Override
             public void onAdShowedFullScreenContent() {
                 super.onAdShowedFullScreenContent();
-                binding.progressCircular.setVisibility(View.GONE);
                 showscream();
             }
         };
     }
 
-    /*private void initAppOdeal(){
-        Log.w("Appodeal", "initAppOdeal");
-        fullscreeam();
-
-        if(!Appodeal.isInitialized(Appodeal.INTERSTITIAL)){
-            Log.w("Appodeal", "Appodeal.initialize");
-        }else{
-            Log.w("Appodeal", "else");
-            showProgressBar();
-            fullscreeam();
-        }
-
-        if(Appodeal.isLoaded(Appodeal.INTERSTITIAL)){
-            Appodeal.show(getActivity(), Appodeal.INTERSTITIAL);
-        }
-
-        Appodeal.setInterstitialCallbacks(new InterstitialCallbacks() {
-            @Override
-            public void onInterstitialLoaded(boolean isPrecache) {
-                hideProgressBar();
-                showscream();
-            }
-            @Override
-            public void onInterstitialFailedToLoad() {
-                Log.w("Appodeal", "onInterstitialFailedToLoad");
-                hideProgressBar();
-                showscream();
-            }
-            @Override
-            public void onInterstitialShown() {
-                hideProgressBar();
-            }
-            @Override
-            public void onInterstitialShowFailed() {
-                hideProgressBar();
-            }
-            @Override
-            public void onInterstitialClicked() {
-                hideProgressBar();
-            }
-            @Override
-            public void onInterstitialClosed() {
-                hideProgressBar();
-            }
-            @Override
-            public void onInterstitialExpired()  {
-                hideProgressBar();
-            }
-        });
-
-    }*/
 
     private void showscream(){
         ((AppCompatActivity) requireActivity()).getSupportActionBar().show();
@@ -237,7 +184,13 @@ public class InformacoesCPF extends Fragment {
     }
 
     private void hideProgressBar(){
-        binding.progressCircular.setVisibility(View.GONE);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                binding.progressCircular.setVisibility(View.GONE);
+            }
+        }, 600);
         adsFragment.call();
     }
 

@@ -26,7 +26,7 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/icones_350_x_350_px_final_07"
+                android:src="@drawable/carteira_de_identidade"
                 android:padding="15dp"
                 />
             <LinearLayout

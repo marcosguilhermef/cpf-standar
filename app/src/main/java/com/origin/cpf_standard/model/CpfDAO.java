@@ -19,6 +19,6 @@ public interface CpfDAO {
     void delete(CPF contact);
     @Query("SELECT * FROM cpf WHERE id = :id ORDER BY ID DESC LIMIT 20")
     Flowable<List<CPF>> getAll(long id);
-    @Query("SELECT * FROM cpf")
+    @Query("SELECT * FROM cpf ORDER BY ID DESC LIMIT 20")
     Flowable<List<CPF>> getAll();
 }
